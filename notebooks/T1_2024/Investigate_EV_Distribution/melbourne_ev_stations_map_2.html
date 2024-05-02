@@ -1,0 +1,3405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_67367668949a6280c2dcc9a1cab4ef99 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_67367668949a6280c2dcc9a1cab4ef99" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_67367668949a6280c2dcc9a1cab4ef99 = L.map(
+                "map_67367668949a6280c2dcc9a1cab4ef99",
+                {
+                    center: [-37.8136, 144.9631],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b318b2e99f9423de7bb6f3195ea12ee6 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_b318b2e99f9423de7bb6f3195ea12ee6.addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_7b2a2b8fbb953011f339b76fc624cd97 = L.marker(
+                [-37.8137384362671, 144.91753432375],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_dbf01f64d2f78353c50ea4736ca35abd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_7b2a2b8fbb953011f339b76fc624cd97.setIcon(icon_dbf01f64d2f78353c50ea4736ca35abd);
+        
+    
+        var popup_0fb43ef212352f13805ac7bcec5ad330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_478fcfdb7e5d84673e8627cbaa53f650 = $(`<div id="html_478fcfdb7e5d84673e8627cbaa53f650" style="width: 100.0%; height: 100.0%;"><b>Port of Melbourne</b><br>EV stations: 0</div>`)[0];
+                popup_0fb43ef212352f13805ac7bcec5ad330.setContent(html_478fcfdb7e5d84673e8627cbaa53f650);
+            
+        
+
+        marker_7b2a2b8fbb953011f339b76fc624cd97.bindPopup(popup_0fb43ef212352f13805ac7bcec5ad330)
+        ;
+
+        
+    
+    
+            var circle_2412d4253c78b977a5be56dea8012c3b = L.circle(
+                [-37.8137384362671, 144.91753432375],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_7a71ccf22b565ff00f3b7f7964535718 = L.marker(
+                [-37.7840864379557, 144.961967841559],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_85419b8149e1709227d881e4b08c4611 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_7a71ccf22b565ff00f3b7f7964535718.setIcon(icon_85419b8149e1709227d881e4b08c4611);
+        
+    
+        var popup_0ef3d13377075aa9396c82b7668b43fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eb9644d2c5149c23e6c63f67fbf0965 = $(`<div id="html_3eb9644d2c5149c23e6c63f67fbf0965" style="width: 100.0%; height: 100.0%;"><b>Carlton Football Club</b><br>EV stations: 0</div>`)[0];
+                popup_0ef3d13377075aa9396c82b7668b43fd.setContent(html_3eb9644d2c5149c23e6c63f67fbf0965);
+            
+        
+
+        marker_7a71ccf22b565ff00f3b7f7964535718.bindPopup(popup_0ef3d13377075aa9396c82b7668b43fd)
+        ;
+
+        
+    
+    
+            var circle_cfc64178c1f10c131232593c8e886cb4 = L.circle(
+                [-37.7840864379557, 144.961967841559],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_29f792677d74adb0175a69eaf4cdfc4f = L.marker(
+                [-37.8017690847403, 144.971997551189],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_e46b1ddcc57e90f30a83587fef075456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_29f792677d74adb0175a69eaf4cdfc4f.setIcon(icon_e46b1ddcc57e90f30a83587fef075456);
+        
+    
+        var popup_edb72cc638ad0cba99b53b5f448c865e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_360c2a55c7e665075ac77c2cc243fbeb = $(`<div id="html_360c2a55c7e665075ac77c2cc243fbeb" style="width: 100.0%; height: 100.0%;"><b>Carlton Gardens North</b><br>EV stations: 6</div>`)[0];
+                popup_edb72cc638ad0cba99b53b5f448c865e.setContent(html_360c2a55c7e665075ac77c2cc243fbeb);
+            
+        
+
+        marker_29f792677d74adb0175a69eaf4cdfc4f.bindPopup(popup_edb72cc638ad0cba99b53b5f448c865e)
+        ;
+
+        
+    
+    
+            var circle_726e8a675c279703fb6dc4f71c1c3efe = L.circle(
+                [-37.8017690847403, 144.971997551189],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_49eeb81a22c9976980bba344e974d49f = L.marker(
+                [-37.8255239795833, 144.974107925144],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_dfde9d5e6981ea6a0711f11d237ac61a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_49eeb81a22c9976980bba344e974d49f.setIcon(icon_dfde9d5e6981ea6a0711f11d237ac61a);
+        
+    
+        var popup_95e3041560b1aa65d18773426336020a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da23cf59884fb12c74864d1ccd57d337 = $(`<div id="html_da23cf59884fb12c74864d1ccd57d337" style="width: 100.0%; height: 100.0%;"><b>Kings Domain</b><br>EV stations: 9</div>`)[0];
+                popup_95e3041560b1aa65d18773426336020a.setContent(html_da23cf59884fb12c74864d1ccd57d337);
+            
+        
+
+        marker_49eeb81a22c9976980bba344e974d49f.bindPopup(popup_95e3041560b1aa65d18773426336020a)
+        ;
+
+        
+    
+    
+            var circle_a04843a1fa202835d04a4ff7d9416071 = L.circle(
+                [-37.8255239795833, 144.974107925144],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_0d46ef654b9f25f6757ceff3cdd6c4e1 = L.marker(
+                [-37.7908082646624, 144.912142987372],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_a16d079c200fefc79e2fe3a33eaf3f7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_0d46ef654b9f25f6757ceff3cdd6c4e1.setIcon(icon_a16d079c200fefc79e2fe3a33eaf3f7e);
+        
+    
+        var popup_a6b373495444630e199a391290cf48ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9226ee6464f171871d804b7a3a3f2409 = $(`<div id="html_9226ee6464f171871d804b7a3a3f2409" style="width: 100.0%; height: 100.0%;"><b>Flemington Racecourse</b><br>EV stations: 0</div>`)[0];
+                popup_a6b373495444630e199a391290cf48ab.setContent(html_9226ee6464f171871d804b7a3a3f2409);
+            
+        
+
+        marker_0d46ef654b9f25f6757ceff3cdd6c4e1.bindPopup(popup_a6b373495444630e199a391290cf48ab)
+        ;
+
+        
+    
+    
+            var circle_cac87e61deabe38aae0be7eff1ba88a3 = L.circle(
+                [-37.7908082646624, 144.912142987372],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_0f07b2f2508ec5d4b33d2fa60e0d9301 = L.marker(
+                [-37.8143993575938, 144.975952335785],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_637767ede01d5d9105a5c3278e587ebe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_0f07b2f2508ec5d4b33d2fa60e0d9301.setIcon(icon_637767ede01d5d9105a5c3278e587ebe);
+        
+    
+        var popup_ca3e4c9c24278888d013e44f87e58c01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b485646fe961858137b57d43be17ac7 = $(`<div id="html_9b485646fe961858137b57d43be17ac7" style="width: 100.0%; height: 100.0%;"><b>Treasury Gardens</b><br>EV stations: 18</div>`)[0];
+                popup_ca3e4c9c24278888d013e44f87e58c01.setContent(html_9b485646fe961858137b57d43be17ac7);
+            
+        
+
+        marker_0f07b2f2508ec5d4b33d2fa60e0d9301.bindPopup(popup_ca3e4c9c24278888d013e44f87e58c01)
+        ;
+
+        
+    
+    
+            var circle_bcdab05af9b5511570751f3d10d49c79 = L.circle(
+                [-37.8143993575938, 144.975952335785],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_83b41d9e688375be16a4d99f7e9beb4c = L.marker(
+                [-37.8136147671606, 144.956846193891],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_27ceeee58f2e8de6664b9ace12f02b49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83b41d9e688375be16a4d99f7e9beb4c.setIcon(icon_27ceeee58f2e8de6664b9ace12f02b49);
+        
+    
+        var popup_f57ed174cb06aed63fbe5129b16eb4ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c29077d8f58ce7d5fe1988b8ff518f60 = $(`<div id="html_c29077d8f58ce7d5fe1988b8ff518f60" style="width: 100.0%; height: 100.0%;"><b>Melbourne Magistrates Court</b><br>EV stations: 35</div>`)[0];
+                popup_f57ed174cb06aed63fbe5129b16eb4ed.setContent(html_c29077d8f58ce7d5fe1988b8ff518f60);
+            
+        
+
+        marker_83b41d9e688375be16a4d99f7e9beb4c.bindPopup(popup_f57ed174cb06aed63fbe5129b16eb4ed)
+        ;
+
+        
+    
+    
+            var circle_4221ae659293f2725208a799eb5a5ca2 = L.circle(
+                [-37.8136147671606, 144.956846193891],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_0062116c775a3d9d4dba122c94332ae6 = L.marker(
+                [-37.8116384403974, 144.9561186805],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_7b6073c31509e14dc23f8bc52ce698ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0062116c775a3d9d4dba122c94332ae6.setIcon(icon_7b6073c31509e14dc23f8bc52ce698ca);
+        
+    
+        var popup_15a81a844f0cc4010a1263895b107219 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1bf3ca04992e91dd8b738c2ba73ceb1 = $(`<div id="html_d1bf3ca04992e91dd8b738c2ba73ceb1" style="width: 100.0%; height: 100.0%;"><b>Flagstaff Railway Station</b><br>EV stations: 31</div>`)[0];
+                popup_15a81a844f0cc4010a1263895b107219.setContent(html_d1bf3ca04992e91dd8b738c2ba73ceb1);
+            
+        
+
+        marker_0062116c775a3d9d4dba122c94332ae6.bindPopup(popup_15a81a844f0cc4010a1263895b107219)
+        ;
+
+        
+    
+    
+            var circle_bd75b7661f324927e44886bc1a55760c = L.circle(
+                [-37.8116384403974, 144.9561186805],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_367ee0f3a637f2e255564a26f648239f = L.marker(
+                [-37.8194921618419, 144.983402879078],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_b152ad3b4c3355c19d1e7586da25333a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_367ee0f3a637f2e255564a26f648239f.setIcon(icon_b152ad3b4c3355c19d1e7586da25333a);
+        
+    
+        var popup_ee5c14961d4ab95b26d2e602fa6cdba0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e113a357915a1535d7cfa9b1a92cb6 = $(`<div id="html_68e113a357915a1535d7cfa9b1a92cb6" style="width: 100.0%; height: 100.0%;"><b>Melbourne Cricket Ground (MCG)</b><br>EV stations: 2</div>`)[0];
+                popup_ee5c14961d4ab95b26d2e602fa6cdba0.setContent(html_68e113a357915a1535d7cfa9b1a92cb6);
+            
+        
+
+        marker_367ee0f3a637f2e255564a26f648239f.bindPopup(popup_ee5c14961d4ab95b26d2e602fa6cdba0)
+        ;
+
+        
+    
+    
+            var circle_49f419ff0af2b81f5df9bcd12fafd25c = L.circle(
+                [-37.8194921618419, 144.983402879078],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_b5e3292aa941d3fee2cdd4347cd8a84a = L.marker(
+                [-37.8216381244891, 144.971049530478],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_b648068573ee8c8d2c73c697cdedb5e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b5e3292aa941d3fee2cdd4347cd8a84a.setIcon(icon_b648068573ee8c8d2c73c697cdedb5e4);
+        
+    
+        var popup_c2813b824cfcc53ae313ea3ece43f362 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb3afd26457a1ea7b5c4492fe6e3c1aa = $(`<div id="html_eb3afd26457a1ea7b5c4492fe6e3c1aa" style="width: 100.0%; height: 100.0%;"><b>Queen Victoria Gardens</b><br>EV stations: 13</div>`)[0];
+                popup_c2813b824cfcc53ae313ea3ece43f362.setContent(html_eb3afd26457a1ea7b5c4492fe6e3c1aa);
+            
+        
+
+        marker_b5e3292aa941d3fee2cdd4347cd8a84a.bindPopup(popup_c2813b824cfcc53ae313ea3ece43f362)
+        ;
+
+        
+    
+    
+            var circle_7e701daa62fe3a9ba08ead13efbd716d = L.circle(
+                [-37.8216381244891, 144.971049530478],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_fb07a667216c99e045d561ca689bf5b6 = L.marker(
+                [-37.8178516571684, 144.968963600783],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_9fb421f70a93b1f882587d3ceb897cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fb07a667216c99e045d561ca689bf5b6.setIcon(icon_9fb421f70a93b1f882587d3ceb897cbb);
+        
+    
+        var popup_c42c0440d2cdfbdf900466ec4922c0b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e95be0dfb393b8b917f0747e082df2d = $(`<div id="html_1e95be0dfb393b8b917f0747e082df2d" style="width: 100.0%; height: 100.0%;"><b>Federation Square</b><br>EV stations: 32</div>`)[0];
+                popup_c42c0440d2cdfbdf900466ec4922c0b4.setContent(html_1e95be0dfb393b8b917f0747e082df2d);
+            
+        
+
+        marker_fb07a667216c99e045d561ca689bf5b6.bindPopup(popup_c42c0440d2cdfbdf900466ec4922c0b4)
+        ;
+
+        
+    
+    
+            var circle_cb2f404e3321a276365bcb89ade93f88 = L.circle(
+                [-37.8178516571684, 144.968963600783],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_6932d33b4c28955f11145cd74ebbb995 = L.marker(
+                [-37.8152178789077, 144.941617889032],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_e9d8a808eee3de96f2a9908ef954fc48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6932d33b4c28955f11145cd74ebbb995.setIcon(icon_e9d8a808eee3de96f2a9908ef954fc48);
+        
+    
+        var popup_c79ca9b7299af579f3c38e6d15b6c6f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f87faadca58370f89cda839600b57a3 = $(`<div id="html_7f87faadca58370f89cda839600b57a3" style="width: 100.0%; height: 100.0%;"><b>New Quay</b><br>EV stations: 5</div>`)[0];
+                popup_c79ca9b7299af579f3c38e6d15b6c6f1.setContent(html_7f87faadca58370f89cda839600b57a3);
+            
+        
+
+        marker_6932d33b4c28955f11145cd74ebbb995.bindPopup(popup_c79ca9b7299af579f3c38e6d15b6c6f1)
+        ;
+
+        
+    
+    
+            var circle_4b45f40737a560269ad9e9642c64145b = L.circle(
+                [-37.8152178789077, 144.941617889032],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_7f176f26942646fdc833a4a6b01dc580 = L.marker(
+                [-37.8152925454954, 144.942283726231],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_b2dbece6d9f61cd6999bc7c6f03a0aa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7f176f26942646fdc833a4a6b01dc580.setIcon(icon_b2dbece6d9f61cd6999bc7c6f03a0aa6);
+        
+    
+        var popup_5295e7edb3f9ce43fb8afd28893e0b60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3875fac95cd98755c68085d17bba2980 = $(`<div id="html_3875fac95cd98755c68085d17bba2980" style="width: 100.0%; height: 100.0%;"><b>New Quay Marina</b><br>EV stations: 7</div>`)[0];
+                popup_5295e7edb3f9ce43fb8afd28893e0b60.setContent(html_3875fac95cd98755c68085d17bba2980);
+            
+        
+
+        marker_7f176f26942646fdc833a4a6b01dc580.bindPopup(popup_5295e7edb3f9ce43fb8afd28893e0b60)
+        ;
+
+        
+    
+    
+            var circle_825635872ae27466452bc41d829c205e = L.circle(
+                [-37.8152925454954, 144.942283726231],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_92323351e31c40ca2f2b74a65e9d0a92 = L.marker(
+                [-37.7878473341234, 144.922972125346],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_e4d34c6896db0a36dbbe3d69b7be9195 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_92323351e31c40ca2f2b74a65e9d0a92.setIcon(icon_e4d34c6896db0a36dbbe3d69b7be9195);
+        
+    
+        var popup_370c99e7cf294e066227562513e742ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a75a998270801ba97d494ff634c44159 = $(`<div id="html_a75a998270801ba97d494ff634c44159" style="width: 100.0%; height: 100.0%;"><b>Newmarket Reserve</b><br>EV stations: 0</div>`)[0];
+                popup_370c99e7cf294e066227562513e742ec.setContent(html_a75a998270801ba97d494ff634c44159);
+            
+        
+
+        marker_92323351e31c40ca2f2b74a65e9d0a92.bindPopup(popup_370c99e7cf294e066227562513e742ec)
+        ;
+
+        
+    
+    
+            var circle_9087fc2783691583092c59621a929df9 = L.circle(
+                [-37.7878473341234, 144.922972125346],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_0f0341469bdb6dbaca099cb9d1e02966 = L.marker(
+                [-37.8116945351989, 144.936833674975],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_c51dc133ae71e1c10db0ea1b042ac5f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0f0341469bdb6dbaca099cb9d1e02966.setIcon(icon_c51dc133ae71e1c10db0ea1b042ac5f6);
+        
+    
+        var popup_da36ec438c92fc3526d1165bf875e39e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce1089d0a19b79ea7096e0c530c2407f = $(`<div id="html_ce1089d0a19b79ea7096e0c530c2407f" style="width: 100.0%; height: 100.0%;"><b>Wonderland Park</b><br>EV stations: 4</div>`)[0];
+                popup_da36ec438c92fc3526d1165bf875e39e.setContent(html_ce1089d0a19b79ea7096e0c530c2407f);
+            
+        
+
+        marker_0f0341469bdb6dbaca099cb9d1e02966.bindPopup(popup_da36ec438c92fc3526d1165bf875e39e)
+        ;
+
+        
+    
+    
+            var circle_9811d7c40c06d9b204ed0b9a85ba6ddd = L.circle(
+                [-37.8116945351989, 144.936833674975],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_885292aee067946b9d76708848b0e121 = L.marker(
+                [-37.8220456119807, 144.978487173787],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_fc99ea78c3541f81c6ae53b45956243c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_885292aee067946b9d76708848b0e121.setIcon(icon_fc99ea78c3541f81c6ae53b45956243c);
+        
+    
+        var popup_a4facc33c9732bb188d50f51416eae33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f881635228bfa327a35313359dbb8e65 = $(`<div id="html_f881635228bfa327a35313359dbb8e65" style="width: 100.0%; height: 100.0%;"><b>Rod Laver Arena</b><br>EV stations: 7</div>`)[0];
+                popup_a4facc33c9732bb188d50f51416eae33.setContent(html_f881635228bfa327a35313359dbb8e65);
+            
+        
+
+        marker_885292aee067946b9d76708848b0e121.bindPopup(popup_a4facc33c9732bb188d50f51416eae33)
+        ;
+
+        
+    
+    
+            var circle_edcf35439835d100443c4ba9250afc1f = L.circle(
+                [-37.8220456119807, 144.978487173787],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_e5a1dc0d15d88ec6f89e859c936aef1a = L.marker(
+                [-37.8209085970021, 144.978735802793],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_9a5d206648c29223084d0807100f6d1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e5a1dc0d15d88ec6f89e859c936aef1a.setIcon(icon_9a5d206648c29223084d0807100f6d1a);
+        
+    
+        var popup_7c8113a26767a41eb349cfd775b2be3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fadd87eeb59e09dfb2f3eb6d93c392d0 = $(`<div id="html_fadd87eeb59e09dfb2f3eb6d93c392d0" style="width: 100.0%; height: 100.0%;"><b>Melbourne Park</b><br>EV stations: 6</div>`)[0];
+                popup_7c8113a26767a41eb349cfd775b2be3f.setContent(html_fadd87eeb59e09dfb2f3eb6d93c392d0);
+            
+        
+
+        marker_e5a1dc0d15d88ec6f89e859c936aef1a.bindPopup(popup_7c8113a26767a41eb349cfd775b2be3f)
+        ;
+
+        
+    
+    
+            var circle_4f1bfb2bc75252b183d688306918a588 = L.circle(
+                [-37.8209085970021, 144.978735802793],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_88390634bc1084bf79af96eae9ca522b = L.marker(
+                [-37.823110002667, 144.981834802535],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_0227644189d38b7aeb61584204c3995d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_88390634bc1084bf79af96eae9ca522b.setIcon(icon_0227644189d38b7aeb61584204c3995d);
+        
+    
+        var popup_c4eae936bf124c026cba3e96f7414169 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36c32a339742b1f644b6242e47905cfd = $(`<div id="html_36c32a339742b1f644b6242e47905cfd" style="width: 100.0%; height: 100.0%;"><b>Hisense Arena</b><br>EV stations: 2</div>`)[0];
+                popup_c4eae936bf124c026cba3e96f7414169.setContent(html_36c32a339742b1f644b6242e47905cfd);
+            
+        
+
+        marker_88390634bc1084bf79af96eae9ca522b.bindPopup(popup_c4eae936bf124c026cba3e96f7414169)
+        ;
+
+        
+    
+    
+            var circle_97c88d892423d6bdd9ed5660195f8b51 = L.circle(
+                [-37.823110002667, 144.981834802535],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_e10c9266fa060300bb6519601fbe75c1 = L.marker(
+                [-37.8239733704282, 144.967450979234],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_20c23f3e76f77740ff191e05a150fdd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e10c9266fa060300bb6519601fbe75c1.setIcon(icon_20c23f3e76f77740ff191e05a150fdd1);
+        
+    
+        var popup_76057a2434e634725b3b0e071144a5d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cfc9f8545a89835765372acf408b033 = $(`<div id="html_1cfc9f8545a89835765372acf408b033" style="width: 100.0%; height: 100.0%;"><b>Elisabeth Murdoch Hall</b><br>EV stations: 18</div>`)[0];
+                popup_76057a2434e634725b3b0e071144a5d4.setContent(html_1cfc9f8545a89835765372acf408b033);
+            
+        
+
+        marker_e10c9266fa060300bb6519601fbe75c1.bindPopup(popup_76057a2434e634725b3b0e071144a5d4)
+        ;
+
+        
+    
+    
+            var circle_54c173461a28ebdb5c3794515a613a24 = L.circle(
+                [-37.8239733704282, 144.967450979234],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_54e193d13b7336c6a2ec2366776d3a30 = L.marker(
+                [-37.8238327885805, 144.967682729667],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_b0683d7acdaa3b0b20ae6d9f1db22cd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_54e193d13b7336c6a2ec2366776d3a30.setIcon(icon_b0683d7acdaa3b0b20ae6d9f1db22cd6);
+        
+    
+        var popup_d9ed71de862fb4bdaae5d80950d36cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7af1913748f72355d39f3e0d8c3d572d = $(`<div id="html_7af1913748f72355d39f3e0d8c3d572d" style="width: 100.0%; height: 100.0%;"><b>Melbourne Recital Centre</b><br>EV stations: 18</div>`)[0];
+                popup_d9ed71de862fb4bdaae5d80950d36cf4.setContent(html_7af1913748f72355d39f3e0d8c3d572d);
+            
+        
+
+        marker_54e193d13b7336c6a2ec2366776d3a30.bindPopup(popup_d9ed71de862fb4bdaae5d80950d36cf4)
+        ;
+
+        
+    
+    
+            var circle_1e98d7e72f577f5a6be3d7361ec27b01 = L.circle(
+                [-37.8238327885805, 144.967682729667],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_94bf6a0e1f721b75592d545739c7d283 = L.marker(
+                [-37.7982358832177, 144.923837074813],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_0c9fd633c3e66a3891f8e5e11ba74dcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_94bf6a0e1f721b75592d545739c7d283.setIcon(icon_0c9fd633c3e66a3891f8e5e11ba74dcb);
+        
+    
+        var popup_ec05ae93502a66620f0db4ad43166b11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db7d68495c25d22c77e9ad411b721dc8 = $(`<div id="html_db7d68495c25d22c77e9ad411b721dc8" style="width: 100.0%; height: 100.0%;"><b>J.J Holland Park</b><br>EV stations: 2</div>`)[0];
+                popup_ec05ae93502a66620f0db4ad43166b11.setContent(html_db7d68495c25d22c77e9ad411b721dc8);
+            
+        
+
+        marker_94bf6a0e1f721b75592d545739c7d283.bindPopup(popup_ec05ae93502a66620f0db4ad43166b11)
+        ;
+
+        
+    
+    
+            var circle_c7de841612336e6b1d2a10b668499a37 = L.circle(
+                [-37.7982358832177, 144.923837074813],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_018194c05a1873a68571330f3b583a1e = L.marker(
+                [-37.7997270537735, 144.925837749713],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_712cd9337ea493ebcf4580635eb0feb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_018194c05a1873a68571330f3b583a1e.setIcon(icon_712cd9337ea493ebcf4580635eb0feb4);
+        
+    
+        var popup_663117af9bc73909e105e45add926872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a89338b040adc161069dbf531679f9a8 = $(`<div id="html_a89338b040adc161069dbf531679f9a8" style="width: 100.0%; height: 100.0%;"><b>South Kensington Railway Station</b><br>EV stations: 2</div>`)[0];
+                popup_663117af9bc73909e105e45add926872.setContent(html_a89338b040adc161069dbf531679f9a8);
+            
+        
+
+        marker_018194c05a1873a68571330f3b583a1e.bindPopup(popup_663117af9bc73909e105e45add926872)
+        ;
+
+        
+    
+    
+            var circle_be03ba12f136cf15c0755b4ead70808e = L.circle(
+                [-37.7997270537735, 144.925837749713],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_f90488d7191717cd1c604c936e43af44 = L.marker(
+                [-37.7812684282825, 144.951667833921],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_eae168c394c35d3a93e8ef7acd5f30f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f90488d7191717cd1c604c936e43af44.setIcon(icon_eae168c394c35d3a93e8ef7acd5f30f0);
+        
+    
+        var popup_957b96db4c45ec6890b7515717a76aed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251dd1ae0a2ff70ce7c700be62079d8d = $(`<div id="html_251dd1ae0a2ff70ce7c700be62079d8d" style="width: 100.0%; height: 100.0%;"><b>Royal Park Railway Station</b><br>EV stations: 0</div>`)[0];
+                popup_957b96db4c45ec6890b7515717a76aed.setContent(html_251dd1ae0a2ff70ce7c700be62079d8d);
+            
+        
+
+        marker_f90488d7191717cd1c604c936e43af44.bindPopup(popup_957b96db4c45ec6890b7515717a76aed)
+        ;
+
+        
+    
+    
+            var circle_c9d10b797f9b334cac2df5e56b472ca5 = L.circle(
+                [-37.7812684282825, 144.951667833921],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_735da135541de91901c1f5a1fc66986b = L.marker(
+                [-37.8100167030855, 144.963789344893],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_ab0d5047d114e26cfaedad25e15dd313 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_735da135541de91901c1f5a1fc66986b.setIcon(icon_ab0d5047d114e26cfaedad25e15dd313);
+        
+    
+        var popup_5da8da8b832d925cdeea742fc2323a49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec780d2bee0e04cc25fd8858e0fe51c1 = $(`<div id="html_ec780d2bee0e04cc25fd8858e0fe51c1" style="width: 100.0%; height: 100.0%;"><b>Melbourne Central Railway Station</b><br>EV stations: 33</div>`)[0];
+                popup_5da8da8b832d925cdeea742fc2323a49.setContent(html_ec780d2bee0e04cc25fd8858e0fe51c1);
+            
+        
+
+        marker_735da135541de91901c1f5a1fc66986b.bindPopup(popup_5da8da8b832d925cdeea742fc2323a49)
+        ;
+
+        
+    
+    
+            var circle_2b6f1ce4f653af542aec019149a103fb = L.circle(
+                [-37.8100167030855, 144.963789344893],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_8182f29576079157c56f733afe1d2a65 = L.marker(
+                [-37.7948375315825, 144.915607065132],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_9e1502ed3b463c2c01d6d763e2092cf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8182f29576079157c56f733afe1d2a65.setIcon(icon_9e1502ed3b463c2c01d6d763e2092cf3);
+        
+    
+        var popup_8d3b43c4479152fca8b957cbe029ffad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4453e5df864fe8a753e4ffa114399909 = $(`<div id="html_4453e5df864fe8a753e4ffa114399909" style="width: 100.0%; height: 100.0%;"><b>Riverside Park</b><br>EV stations: 2</div>`)[0];
+                popup_8d3b43c4479152fca8b957cbe029ffad.setContent(html_4453e5df864fe8a753e4ffa114399909);
+            
+        
+
+        marker_8182f29576079157c56f733afe1d2a65.bindPopup(popup_8d3b43c4479152fca8b957cbe029ffad)
+        ;
+
+        
+    
+    
+            var circle_6cb0742536f8b7fcf6aebd69d9acc4ce = L.circle(
+                [-37.7948375315825, 144.915607065132],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_a4b07e921beff20c5e152f5c1096ff61 = L.marker(
+                [-37.8111222889277, 144.954696055235],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_45862d371195c3a737800e6d23caaba0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a4b07e921beff20c5e152f5c1096ff61.setIcon(icon_45862d371195c3a737800e6d23caaba0);
+        
+    
+        var popup_70f2bfee7c74e764a830eec6c8c67e5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1bbb48d4bd310e014e93d2e0db4764e = $(`<div id="html_a1bbb48d4bd310e014e93d2e0db4764e" style="width: 100.0%; height: 100.0%;"><b>Flagstaff Gardens</b><br>EV stations: 26</div>`)[0];
+                popup_70f2bfee7c74e764a830eec6c8c67e5d.setContent(html_a1bbb48d4bd310e014e93d2e0db4764e);
+            
+        
+
+        marker_a4b07e921beff20c5e152f5c1096ff61.bindPopup(popup_70f2bfee7c74e764a830eec6c8c67e5d)
+        ;
+
+        
+    
+    
+            var circle_a23bd7b583e717268b2a9a2f65db8757 = L.circle(
+                [-37.8111222889277, 144.954696055235],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_e635c0dc0bb5c57629077e36b99e9ec1 = L.marker(
+                [-37.8413996708186, 144.981625667877],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_76c6ac27dc12ef38523ce8fb88a82d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e635c0dc0bb5c57629077e36b99e9ec1.setIcon(icon_76c6ac27dc12ef38523ce8fb88a82d01);
+        
+    
+        var popup_b82e680918725b0e16dafc915b67eac0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7248b42825915e946c06246383b1be8 = $(`<div id="html_d7248b42825915e946c06246383b1be8" style="width: 100.0%; height: 100.0%;"><b>Fawkner Park</b><br>EV stations: 3</div>`)[0];
+                popup_b82e680918725b0e16dafc915b67eac0.setContent(html_d7248b42825915e946c06246383b1be8);
+            
+        
+
+        marker_e635c0dc0bb5c57629077e36b99e9ec1.bindPopup(popup_b82e680918725b0e16dafc915b67eac0)
+        ;
+
+        
+    
+    
+            var circle_c3bcb5a086faac8488168e6b0583721d = L.circle(
+                [-37.8413996708186, 144.981625667877],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_bc25913647bab4f0c1e4c4ac29e6e6c0 = L.marker(
+                [-37.8129616331579, 144.980455714669],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_cffbe3294618457427eaaca2951c16ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_bc25913647bab4f0c1e4c4ac29e6e6c0.setIcon(icon_cffbe3294618457427eaaca2951c16ec);
+        
+    
+        var popup_aeaebaa33d2f9e960f6340626ead0fdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_395328e0d8f5dc349a6e1d6eb70d4785 = $(`<div id="html_395328e0d8f5dc349a6e1d6eb70d4785" style="width: 100.0%; height: 100.0%;"><b>Fitzroy Gardens</b><br>EV stations: 13</div>`)[0];
+                popup_aeaebaa33d2f9e960f6340626ead0fdb.setContent(html_395328e0d8f5dc349a6e1d6eb70d4785);
+            
+        
+
+        marker_bc25913647bab4f0c1e4c4ac29e6e6c0.bindPopup(popup_aeaebaa33d2f9e960f6340626ead0fdb)
+        ;
+
+        
+    
+    
+            var circle_97b2ebeaf538988ed17f16b439e8ff99 = L.circle(
+                [-37.8129616331579, 144.980455714669],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_242f5d19d1f1638ba16a81153b6575ce = L.marker(
+                [-37.820210269629, 144.959276859602],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_f7bc8ac422be36b68eced66da7ebea8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_242f5d19d1f1638ba16a81153b6575ce.setIcon(icon_f7bc8ac422be36b68eced66da7ebea8d);
+        
+    
+        var popup_974a90ca6e4378bc6bdc40c9e2d88316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84175bd21c5ed81f4e2a5a7b3d69f978 = $(`<div id="html_84175bd21c5ed81f4e2a5a7b3d69f978" style="width: 100.0%; height: 100.0%;"><b>Enterprize Park</b><br>EV stations: 31</div>`)[0];
+                popup_974a90ca6e4378bc6bdc40c9e2d88316.setContent(html_84175bd21c5ed81f4e2a5a7b3d69f978);
+            
+        
+
+        marker_242f5d19d1f1638ba16a81153b6575ce.bindPopup(popup_974a90ca6e4378bc6bdc40c9e2d88316)
+        ;
+
+        
+    
+    
+            var circle_96c202cfe3f32096e95b32c36dc4dbd4 = L.circle(
+                [-37.820210269629, 144.959276859602],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_6c3435a5042559545598c38528067efb = L.marker(
+                [-37.8179063007545, 144.967064817875],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_d4e5fbb88e895ac6fb13f8aac107cd22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c3435a5042559545598c38528067efb.setIcon(icon_d4e5fbb88e895ac6fb13f8aac107cd22);
+        
+    
+        var popup_87c157cd0b3dd6873e3d3ea7e3b3371b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d364c1a04385221ffa0ee42c2097e2e = $(`<div id="html_5d364c1a04385221ffa0ee42c2097e2e" style="width: 100.0%; height: 100.0%;"><b>Flinders Street Railway Station</b><br>EV stations: 35</div>`)[0];
+                popup_87c157cd0b3dd6873e3d3ea7e3b3371b.setContent(html_5d364c1a04385221ffa0ee42c2097e2e);
+            
+        
+
+        marker_6c3435a5042559545598c38528067efb.bindPopup(popup_87c157cd0b3dd6873e3d3ea7e3b3371b)
+        ;
+
+        
+    
+    
+            var circle_a52fca5f1f9a06f6f1ea35a65ed500c9 = L.circle(
+                [-37.8179063007545, 144.967064817875],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_f9091f02f22f8732c2d3391b518066be = L.marker(
+                [-37.8092318636838, 144.975247619376],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_ed01e74b3b50a93a14f54da873a535dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f9091f02f22f8732c2d3391b518066be.setIcon(icon_ed01e74b3b50a93a14f54da873a535dc);
+        
+    
+        var popup_0cdf25e9aa05a87d000e739ee0a7b8fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e37b22f726516ff568e3def8c999cb = $(`<div id="html_26e37b22f726516ff568e3def8c999cb" style="width: 100.0%; height: 100.0%;"><b>Metropolitan Fire Brigade (MFB)</b><br>EV stations: 17</div>`)[0];
+                popup_0cdf25e9aa05a87d000e739ee0a7b8fc.setContent(html_26e37b22f726516ff568e3def8c999cb);
+            
+        
+
+        marker_f9091f02f22f8732c2d3391b518066be.bindPopup(popup_0cdf25e9aa05a87d000e739ee0a7b8fc)
+        ;
+
+        
+    
+    
+            var circle_fcabf35081f5b60b31b1946b45975b44 = L.circle(
+                [-37.8092318636838, 144.975247619376],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_9cdf9370a216ce039940e3f5476dd7d3 = L.marker(
+                [-37.8123961677596, 144.955823833257],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_33b79af06e18acdb58327d7d8be33db1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9cdf9370a216ce039940e3f5476dd7d3.setIcon(icon_33b79af06e18acdb58327d7d8be33db1);
+        
+    
+        var popup_49a97b43278bea7cd38f5860ef46f787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07dafe1d01a17996c86247bf8c8182c6 = $(`<div id="html_07dafe1d01a17996c86247bf8c8182c6" style="width: 100.0%; height: 100.0%;"><b>Commonwealth Law Courts</b><br>EV stations: 32</div>`)[0];
+                popup_49a97b43278bea7cd38f5860ef46f787.setContent(html_07dafe1d01a17996c86247bf8c8182c6);
+            
+        
+
+        marker_9cdf9370a216ce039940e3f5476dd7d3.bindPopup(popup_49a97b43278bea7cd38f5860ef46f787)
+        ;
+
+        
+    
+    
+            var circle_abff4ac5baa1b209f5dce866984abc35 = L.circle(
+                [-37.8123961677596, 144.955823833257],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_f34041e5dc11092cc6a04c107f0a6719 = L.marker(
+                [-37.7983318676737, 144.971514146104],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_be3c795df0f7ec7f298ed162d3d7fe98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f34041e5dc11092cc6a04c107f0a6719.setIcon(icon_be3c795df0f7ec7f298ed162d3d7fe98);
+        
+    
+        var popup_806831657d0ad6e6f3331ae20da1270e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6cc409243f4ec0670f8d45975ac9265 = $(`<div id="html_a6cc409243f4ec0670f8d45975ac9265" style="width: 100.0%; height: 100.0%;"><b>Macarthur Square</b><br>EV stations: 4</div>`)[0];
+                popup_806831657d0ad6e6f3331ae20da1270e.setContent(html_a6cc409243f4ec0670f8d45975ac9265);
+            
+        
+
+        marker_f34041e5dc11092cc6a04c107f0a6719.bindPopup(popup_806831657d0ad6e6f3331ae20da1270e)
+        ;
+
+        
+    
+    
+            var circle_6ce5bd4b096cec7f544fc30dc57ed1f7 = L.circle(
+                [-37.7983318676737, 144.971514146104],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_39b96aa3e1d97998852a59aa28eacd7c = L.marker(
+                [-37.8071585350561, 144.963189789721],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_053e0361980ea1a4ac122f9e9cde9e9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_39b96aa3e1d97998852a59aa28eacd7c.setIcon(icon_053e0361980ea1a4ac122f9e9cde9e9d);
+        
+    
+        var popup_bb3bb1249b5ade639c218c00a9b38444 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7ed59116559743b5047fd490074522e = $(`<div id="html_f7ed59116559743b5047fd490074522e" style="width: 100.0%; height: 100.0%;"><b>City Baths</b><br>EV stations: 23</div>`)[0];
+                popup_bb3bb1249b5ade639c218c00a9b38444.setContent(html_f7ed59116559743b5047fd490074522e);
+            
+        
+
+        marker_39b96aa3e1d97998852a59aa28eacd7c.bindPopup(popup_bb3bb1249b5ade639c218c00a9b38444)
+        ;
+
+        
+    
+    
+            var circle_7d574bba9201a87cca3b7c59dfd985a8 = L.circle(
+                [-37.8071585350561, 144.963189789721],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_3316ef044b58c1585c906dc36d005dc4 = L.marker(
+                [-37.8314918578874, 144.908824792698],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_66e152edc001b7f0ab5e8f1796df1058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3316ef044b58c1585c906dc36d005dc4.setIcon(icon_66e152edc001b7f0ab5e8f1796df1058);
+        
+    
+        var popup_813107ae961fc22b12a67362518e1922 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc03e86bd18cd5e20c2d47827e6666bb = $(`<div id="html_dc03e86bd18cd5e20c2d47827e6666bb" style="width: 100.0%; height: 100.0%;"><b>Westgate Park</b><br>EV stations: 6</div>`)[0];
+                popup_813107ae961fc22b12a67362518e1922.setContent(html_dc03e86bd18cd5e20c2d47827e6666bb);
+            
+        
+
+        marker_3316ef044b58c1585c906dc36d005dc4.bindPopup(popup_813107ae961fc22b12a67362518e1922)
+        ;
+
+        
+    
+    
+            var circle_bdbe6a0b9a8bba2efe0a053ec3d12ab7 = L.circle(
+                [-37.8314918578874, 144.908824792698],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_1ea43967fdc828c10e2d575ea868504b = L.marker(
+                [-37.8073823625058, 144.942429848025],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_2a4efc658bfa51791565508578783e5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1ea43967fdc828c10e2d575ea868504b.setIcon(icon_2a4efc658bfa51791565508578783e5c);
+        
+    
+        var popup_cabe00b4b5740d19efc18a87d8beafa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deddd60d09c4d69de2ec19e3badbe999 = $(`<div id="html_deddd60d09c4d69de2ec19e3badbe999" style="width: 100.0%; height: 100.0%;"><b>North Melbourne Railway Station</b><br>EV stations: 7</div>`)[0];
+                popup_cabe00b4b5740d19efc18a87d8beafa2.setContent(html_deddd60d09c4d69de2ec19e3badbe999);
+            
+        
+
+        marker_1ea43967fdc828c10e2d575ea868504b.bindPopup(popup_cabe00b4b5740d19efc18a87d8beafa2)
+        ;
+
+        
+    
+    
+            var circle_f852905db992654fc02e8f18b2d44644 = L.circle(
+                [-37.8073823625058, 144.942429848025],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_8e0feace80bbb3704e5b9aecfde571ae = L.marker(
+                [-37.8125077646598, 144.958298873269],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_51842150a00066a91bf206ee477ce869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e0feace80bbb3704e5b9aecfde571ae.setIcon(icon_51842150a00066a91bf206ee477ce869);
+        
+    
+        var popup_dacc1f768d567a10626581970ecd350b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_052247630bf8ac65cd61d4badb816e77 = $(`<div id="html_052247630bf8ac65cd61d4badb816e77" style="width: 100.0%; height: 100.0%;"><b>Melbourne Childrens Court</b><br>EV stations: 36</div>`)[0];
+                popup_dacc1f768d567a10626581970ecd350b.setContent(html_052247630bf8ac65cd61d4badb816e77);
+            
+        
+
+        marker_8e0feace80bbb3704e5b9aecfde571ae.bindPopup(popup_dacc1f768d567a10626581970ecd350b)
+        ;
+
+        
+    
+    
+            var circle_895ca3a107f562b6b7849aedeacce956 = L.circle(
+                [-37.8125077646598, 144.958298873269],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_da8911ae820bcd117dfc7b51cfcb615a = L.marker(
+                [-37.8161760471742, 144.947496254547],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_6e9c107f509f1a205a8cac55f67c5966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_da8911ae820bcd117dfc7b51cfcb615a.setIcon(icon_6e9c107f509f1a205a8cac55f67c5966);
+        
+    
+        var popup_22f9a299d78048af751497f3ca083259 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f98be0d896100352c3fb680d47de6109 = $(`<div id="html_f98be0d896100352c3fb680d47de6109" style="width: 100.0%; height: 100.0%;"><b>Etihad Stadium</b><br>EV stations: 21</div>`)[0];
+                popup_22f9a299d78048af751497f3ca083259.setContent(html_f98be0d896100352c3fb680d47de6109);
+            
+        
+
+        marker_da8911ae820bcd117dfc7b51cfcb615a.bindPopup(popup_22f9a299d78048af751497f3ca083259)
+        ;
+
+        
+    
+    
+            var circle_2773b40ef221b2bd44773154595033fd = L.circle(
+                [-37.8161760471742, 144.947496254547],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_14fb2420e21043ff4bbc3ea680fe170c = L.marker(
+                [-37.8216187583314, 144.964622218598],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_c28f91327d199db0d657b4ce3701297e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_14fb2420e21043ff4bbc3ea680fe170c.setIcon(icon_c28f91327d199db0d657b4ce3701297e);
+        
+    
+        var popup_76f6c39870b533c9e0b9c65b1917972a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fec2e9f10663538263611025b4c2394 = $(`<div id="html_4fec2e9f10663538263611025b4c2394" style="width: 100.0%; height: 100.0%;"><b>Eureka Skydeck 88</b><br>EV stations: 27</div>`)[0];
+                popup_76f6c39870b533c9e0b9c65b1917972a.setContent(html_4fec2e9f10663538263611025b4c2394);
+            
+        
+
+        marker_14fb2420e21043ff4bbc3ea680fe170c.bindPopup(popup_76f6c39870b533c9e0b9c65b1917972a)
+        ;
+
+        
+    
+    
+            var circle_8f4e841205b79f0d12f4be7efbb59869 = L.circle(
+                [-37.8216187583314, 144.964622218598],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_76dfb79cabad9b78ff656db4c032880f = L.marker(
+                [-37.8132011619962, 144.957734246387],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_f097954d043f43c4c66c2245c83e064d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76dfb79cabad9b78ff656db4c032880f.setIcon(icon_f097954d043f43c4c66c2245c83e064d);
+        
+    
+        var popup_c086813c87d7668c04a871de5cbc58c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55e13fad4ef7cecdce8a12e0baaba8f0 = $(`<div id="html_55e13fad4ef7cecdce8a12e0baaba8f0" style="width: 100.0%; height: 100.0%;"><b>County Court Melbourne</b><br>EV stations: 35</div>`)[0];
+                popup_c086813c87d7668c04a871de5cbc58c6.setContent(html_55e13fad4ef7cecdce8a12e0baaba8f0);
+            
+        
+
+        marker_76dfb79cabad9b78ff656db4c032880f.bindPopup(popup_c086813c87d7668c04a871de5cbc58c6)
+        ;
+
+        
+    
+    
+            var circle_ed0bc6d0db48ab0809d4175f2d1559ba = L.circle(
+                [-37.8132011619962, 144.957734246387],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_3e200600eb647acf9e3fc7d6105d83e0 = L.marker(
+                [-37.8201763042794, 144.96298113724],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_f878115e75c0746f6d459a5efdde6480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e200600eb647acf9e3fc7d6105d83e0.setIcon(icon_f878115e75c0746f6d459a5efdde6480);
+        
+    
+        var popup_34f99b1e46e0a908ebb9ce9d291c0e0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_316a592f6fcb1de567adcf70ef13602c = $(`<div id="html_316a592f6fcb1de567adcf70ef13602c" style="width: 100.0%; height: 100.0%;"><b>Sandridge Rail Bridge</b><br>EV stations: 35</div>`)[0];
+                popup_34f99b1e46e0a908ebb9ce9d291c0e0c.setContent(html_316a592f6fcb1de567adcf70ef13602c);
+            
+        
+
+        marker_3e200600eb647acf9e3fc7d6105d83e0.bindPopup(popup_34f99b1e46e0a908ebb9ce9d291c0e0c)
+        ;
+
+        
+    
+    
+            var circle_0974355ff92ab803fd05c32eff48d5a1 = L.circle(
+                [-37.8201763042794, 144.96298113724],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_26736ec082b8bbe1bdf6424bdce2b798 = L.marker(
+                [-37.8027919689732, 144.962760852233],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_757101998b5224d52a8ce89a53adc211 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_26736ec082b8bbe1bdf6424bdce2b798.setIcon(icon_757101998b5224d52a8ce89a53adc211);
+        
+    
+        var popup_88fb4b4fba9d5588357058885255d436 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_016fe81f87038e3f55af9f73591610d2 = $(`<div id="html_016fe81f87038e3f55af9f73591610d2" style="width: 100.0%; height: 100.0%;"><b>Lincoln Square</b><br>EV stations: 11</div>`)[0];
+                popup_88fb4b4fba9d5588357058885255d436.setContent(html_016fe81f87038e3f55af9f73591610d2);
+            
+        
+
+        marker_26736ec082b8bbe1bdf6424bdce2b798.bindPopup(popup_88fb4b4fba9d5588357058885255d436)
+        ;
+
+        
+    
+    
+            var circle_98cc705abbe665dc0ac41650e7540cb0 = L.circle(
+                [-37.8027919689732, 144.962760852233],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_6ea7911f862ea92cc16f476ff96f4df2 = L.marker(
+                [-37.7881645889621, 144.939277838304],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_07c08504a8075bc19e6f080ff7c04d95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_6ea7911f862ea92cc16f476ff96f4df2.setIcon(icon_07c08504a8075bc19e6f080ff7c04d95);
+        
+    
+        var popup_fb5a04192c3bccda26e79615f6fe981d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eca04e0fe92221456ac66f7fa4b100bb = $(`<div id="html_eca04e0fe92221456ac66f7fa4b100bb" style="width: 100.0%; height: 100.0%;"><b>Flemington Bridge Railway Station</b><br>EV stations: 0</div>`)[0];
+                popup_fb5a04192c3bccda26e79615f6fe981d.setContent(html_eca04e0fe92221456ac66f7fa4b100bb);
+            
+        
+
+        marker_6ea7911f862ea92cc16f476ff96f4df2.bindPopup(popup_fb5a04192c3bccda26e79615f6fe981d)
+        ;
+
+        
+    
+    
+            var circle_b20cc2e3b9e42d4693473a88fb8ec4c1 = L.circle(
+                [-37.7881645889621, 144.939277838304],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_952fc376df38a7ea68206e5133af7161 = L.marker(
+                [-37.8060684577258, 144.971266479841],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_e8dc7ac49061b82e6047fceaacd82497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_952fc376df38a7ea68206e5133af7161.setIcon(icon_e8dc7ac49061b82e6047fceaacd82497);
+        
+    
+        var popup_3646c11fbc85603304dd0f2605bc7422 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84d2f6d2a721bb2eef19396d11a1812c = $(`<div id="html_84d2f6d2a721bb2eef19396d11a1812c" style="width: 100.0%; height: 100.0%;"><b>Carlton Gardens South</b><br>EV stations: 19</div>`)[0];
+                popup_3646c11fbc85603304dd0f2605bc7422.setContent(html_84d2f6d2a721bb2eef19396d11a1812c);
+            
+        
+
+        marker_952fc376df38a7ea68206e5133af7161.bindPopup(popup_3646c11fbc85603304dd0f2605bc7422)
+        ;
+
+        
+    
+    
+            var circle_7d9b1cc69fc47be4f4d9bdd1b7ccf83c = L.circle(
+                [-37.8060684577258, 144.971266479841],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_15f882596fed5a9f28e12aa4dc2f8b70 = L.marker(
+                [-37.8164849024046, 144.966486801188],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_088478c795143d2751cb70804dae2d1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15f882596fed5a9f28e12aa4dc2f8b70.setIcon(icon_088478c795143d2751cb70804dae2d1e);
+        
+    
+        var popup_b00b2c83523445d7f9bad7303962e8e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a44a1a17d44a3343b1312caa71ecec36 = $(`<div id="html_a44a1a17d44a3343b1312caa71ecec36" style="width: 100.0%; height: 100.0%;"><b>Victoria Police</b><br>EV stations: 40</div>`)[0];
+                popup_b00b2c83523445d7f9bad7303962e8e8.setContent(html_a44a1a17d44a3343b1312caa71ecec36);
+            
+        
+
+        marker_15f882596fed5a9f28e12aa4dc2f8b70.bindPopup(popup_b00b2c83523445d7f9bad7303962e8e8)
+        ;
+
+        
+    
+    
+            var circle_a22e11fd1497d2910845319f67a662d9 = L.circle(
+                [-37.8164849024046, 144.966486801188],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_8325f89d64b8db9ae23d7e22310a0b56 = L.marker(
+                [-37.7819171308558, 144.956309119368],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_806941c385e9108f3220ac7a13457f4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_8325f89d64b8db9ae23d7e22310a0b56.setIcon(icon_806941c385e9108f3220ac7a13457f4e);
+        
+    
+        var popup_7f8e768b6c680f01e79788ebf8569f2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12f8e5d1b9ca247f85b147224ca9c22e = $(`<div id="html_12f8e5d1b9ca247f85b147224ca9c22e" style="width: 100.0%; height: 100.0%;"><b>Royal Park Golf Course</b><br>EV stations: 0</div>`)[0];
+                popup_7f8e768b6c680f01e79788ebf8569f2c.setContent(html_12f8e5d1b9ca247f85b147224ca9c22e);
+            
+        
+
+        marker_8325f89d64b8db9ae23d7e22310a0b56.bindPopup(popup_7f8e768b6c680f01e79788ebf8569f2c)
+        ;
+
+        
+    
+    
+            var circle_bd8569ba5ca4c6bb10aeb9fbb73dea3a = L.circle(
+                [-37.7819171308558, 144.956309119368],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_3d93099360e3f5d418758d0448ba2bba = L.marker(
+                [-37.7834303940347, 144.961982577553],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_bd9232dd8f9d947e51fd177481be3168 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_3d93099360e3f5d418758d0448ba2bba.setIcon(icon_bd9232dd8f9d947e51fd177481be3168);
+        
+    
+        var popup_39dfa1a4aba6b37042e61146f58738b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08f2fe7e596993ccb04af5bb208d88d4 = $(`<div id="html_08f2fe7e596993ccb04af5bb208d88d4" style="width: 100.0%; height: 100.0%;"><b>Visy Park</b><br>EV stations: 0</div>`)[0];
+                popup_39dfa1a4aba6b37042e61146f58738b7.setContent(html_08f2fe7e596993ccb04af5bb208d88d4);
+            
+        
+
+        marker_3d93099360e3f5d418758d0448ba2bba.bindPopup(popup_39dfa1a4aba6b37042e61146f58738b7)
+        ;
+
+        
+    
+    
+            var circle_b814beb050dd9673ea6d793511c4d871 = L.circle(
+                [-37.7834303940347, 144.961982577553],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_6dd150cbe87a7400c46fc85f9e4fbf0f = L.marker(
+                [-37.8218460949601, 144.956665812218],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_e7a1f3b9998c02efb6dfb3ffa81e9a41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6dd150cbe87a7400c46fc85f9e4fbf0f.setIcon(icon_e7a1f3b9998c02efb6dfb3ffa81e9a41);
+        
+    
+        var popup_bf97e568ceaafe477176269b3e0fa00c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_202d1f2bcbb3fe9c97da3323db868406 = $(`<div id="html_202d1f2bcbb3fe9c97da3323db868406" style="width: 100.0%; height: 100.0%;"><b>Batman Park</b><br>EV stations: 31</div>`)[0];
+                popup_bf97e568ceaafe477176269b3e0fa00c.setContent(html_202d1f2bcbb3fe9c97da3323db868406);
+            
+        
+
+        marker_6dd150cbe87a7400c46fc85f9e4fbf0f.bindPopup(popup_bf97e568ceaafe477176269b3e0fa00c)
+        ;
+
+        
+    
+    
+            var circle_d36b3a30799e5a249eb82b563e5d7d4e = L.circle(
+                [-37.8218460949601, 144.956665812218],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_1f5fe612a53a68c7491006ffe58eb9e5 = L.marker(
+                [-37.8150754791411, 144.966542722283],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_647c88ef8371234b6b20e00171b441d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f5fe612a53a68c7491006ffe58eb9e5.setIcon(icon_647c88ef8371234b6b20e00171b441d0);
+        
+    
+        var popup_f76143026c547d0db38e84cbf3a37208 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77b3705a3ccafa03235e288387d3e04c = $(`<div id="html_77b3705a3ccafa03235e288387d3e04c" style="width: 100.0%; height: 100.0%;"><b>Melbourne Town Hall</b><br>EV stations: 40</div>`)[0];
+                popup_f76143026c547d0db38e84cbf3a37208.setContent(html_77b3705a3ccafa03235e288387d3e04c);
+            
+        
+
+        marker_1f5fe612a53a68c7491006ffe58eb9e5.bindPopup(popup_f76143026c547d0db38e84cbf3a37208)
+        ;
+
+        
+    
+    
+            var circle_b73189c2d232f5ecd7fd97ab0fe02ad7 = L.circle(
+                [-37.8150754791411, 144.966542722283],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_db3b7ab42051cd9d27270543af19e20e = L.marker(
+                [-37.8233471608733, 144.974686151365],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_5ca6d5e139d55bc3eaad3088f14568b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_db3b7ab42051cd9d27270543af19e20e.setIcon(icon_5ca6d5e139d55bc3eaad3088f14568b7);
+        
+    
+        var popup_a4809b6679b6c8f789a336833bbe4cc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf932eaee6b4e30317f33b26a4f6d592 = $(`<div id="html_cf932eaee6b4e30317f33b26a4f6d592" style="width: 100.0%; height: 100.0%;"><b>Sidney Myer Music Bowl</b><br>EV stations: 9</div>`)[0];
+                popup_a4809b6679b6c8f789a336833bbe4cc3.setContent(html_cf932eaee6b4e30317f33b26a4f6d592);
+            
+        
+
+        marker_db3b7ab42051cd9d27270543af19e20e.bindPopup(popup_a4809b6679b6c8f789a336833bbe4cc3)
+        ;
+
+        
+    
+    
+            var circle_0c7be06ff1e1a6a5b4b0eddea934901b = L.circle(
+                [-37.8233471608733, 144.974686151365],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_4293c0cd0296df9b558854e4aedbf1f5 = L.marker(
+                [-37.8247252673963, 144.98380297866],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_b4bdff6c6f3935efde8ac423a3ecdb18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_4293c0cd0296df9b558854e4aedbf1f5.setIcon(icon_b4bdff6c6f3935efde8ac423a3ecdb18);
+        
+    
+        var popup_fcf96f9e92e867825565f509f9c28f12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52bd97c588df8d2bb52feb9db90bf073 = $(`<div id="html_52bd97c588df8d2bb52feb9db90bf073" style="width: 100.0%; height: 100.0%;"><b>AAMI Park</b><br>EV stations: 2</div>`)[0];
+                popup_fcf96f9e92e867825565f509f9c28f12.setContent(html_52bd97c588df8d2bb52feb9db90bf073);
+            
+        
+
+        marker_4293c0cd0296df9b558854e4aedbf1f5.bindPopup(popup_fcf96f9e92e867825565f509f9c28f12)
+        ;
+
+        
+    
+    
+            var circle_6a43251667e9bb38d552eb1a21d95086 = L.circle(
+                [-37.8247252673963, 144.98380297866],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_394d2e7776f41fa0c59f3795dee1e854 = L.marker(
+                [-37.8116163666726, 144.937588920436],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_c5d1731adca90b3b1e9f5ebaedc37eb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_394d2e7776f41fa0c59f3795dee1e854.setIcon(icon_c5d1731adca90b3b1e9f5ebaedc37eb3);
+        
+    
+        var popup_a8b558676cc8a49ee2af11d906a56f38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9eb457592439e069b7b5148ff694836 = $(`<div id="html_d9eb457592439e069b7b5148ff694836" style="width: 100.0%; height: 100.0%;"><b>Melbourne Star Observation Wheel</b><br>EV stations: 4</div>`)[0];
+                popup_a8b558676cc8a49ee2af11d906a56f38.setContent(html_d9eb457592439e069b7b5148ff694836);
+            
+        
+
+        marker_394d2e7776f41fa0c59f3795dee1e854.bindPopup(popup_a8b558676cc8a49ee2af11d906a56f38)
+        ;
+
+        
+    
+    
+            var circle_ea4d8c6b2c5db52f79183a4ab2d32999 = L.circle(
+                [-37.8116163666726, 144.937588920436],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_d0f3c40a8f4ea27c159463071bbb9df7 = L.marker(
+                [-37.8213252086842, 144.977591098955],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_31fb0c71f8046c6b1c807b53f6a5b3b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d0f3c40a8f4ea27c159463071bbb9df7.setIcon(icon_31fb0c71f8046c6b1c807b53f6a5b3b8);
+        
+    
+        var popup_05388e1dee9e715f1e5fb8f03d52918a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ea47ed44761596a39a0bb6ac7ac6796 = $(`<div id="html_2ea47ed44761596a39a0bb6ac7ac6796" style="width: 100.0%; height: 100.0%;"><b>Margaret Court Arena</b><br>EV stations: 10</div>`)[0];
+                popup_05388e1dee9e715f1e5fb8f03d52918a.setContent(html_2ea47ed44761596a39a0bb6ac7ac6796);
+            
+        
+
+        marker_d0f3c40a8f4ea27c159463071bbb9df7.bindPopup(popup_05388e1dee9e715f1e5fb8f03d52918a)
+        ;
+
+        
+    
+    
+            var circle_09ea66d0bf48dba71faf0ced6b6a27cf = L.circle(
+                [-37.8213252086842, 144.977591098955],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_45bacda6da767d1cc7d1e898aa4c9826 = L.marker(
+                [-37.8230135000869, 144.969342535451],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_51815c24ad128472c56d51bc4003f939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_45bacda6da767d1cc7d1e898aa4c9826.setIcon(icon_51815c24ad128472c56d51bc4003f939);
+        
+    
+        var popup_8e67a02153ccdaf98e5aac2a4567f58c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4414057051237c449ff0d75d582483bb = $(`<div id="html_4414057051237c449ff0d75d582483bb" style="width: 100.0%; height: 100.0%;"><b>NGV International</b><br>EV stations: 14</div>`)[0];
+                popup_8e67a02153ccdaf98e5aac2a4567f58c.setContent(html_4414057051237c449ff0d75d582483bb);
+            
+        
+
+        marker_45bacda6da767d1cc7d1e898aa4c9826.bindPopup(popup_8e67a02153ccdaf98e5aac2a4567f58c)
+        ;
+
+        
+    
+    
+            var circle_35478fb324b619a94851479d324f8fee = L.circle(
+                [-37.8230135000869, 144.969342535451],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_d0f5c2ed4c10953c107262a422c1882d = L.marker(
+                [-37.81806108403, 144.97314667014],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_c4a89c47c926aa37bcc978824cfd9854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d0f5c2ed4c10953c107262a422c1882d.setIcon(icon_c4a89c47c926aa37bcc978824cfd9854);
+        
+    
+        var popup_76d5c17ddc46dcdce5d24dc38cc720fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa54710d65bbc1301c57b68b5178ef05 = $(`<div id="html_aa54710d65bbc1301c57b68b5178ef05" style="width: 100.0%; height: 100.0%;"><b>Birrarung Marr</b><br>EV stations: 24</div>`)[0];
+                popup_76d5c17ddc46dcdce5d24dc38cc720fb.setContent(html_aa54710d65bbc1301c57b68b5178ef05);
+            
+        
+
+        marker_d0f5c2ed4c10953c107262a422c1882d.bindPopup(popup_76d5c17ddc46dcdce5d24dc38cc720fb)
+        ;
+
+        
+    
+    
+            var circle_1389c6dc7a175983342161e55619fec3 = L.circle(
+                [-37.81806108403, 144.97314667014],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_45ce818d370c50b53fe7ca7c456e7879 = L.marker(
+                [-37.8184198800044, 144.971542586509],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_47092b377d114037e5a2a05f1774e41a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_45ce818d370c50b53fe7ca7c456e7879.setIcon(icon_47092b377d114037e5a2a05f1774e41a);
+        
+    
+        var popup_d31af587514eb7d06d149688d719e796 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df9ee2f5e6cf8156697806fba69487ea = $(`<div id="html_df9ee2f5e6cf8156697806fba69487ea" style="width: 100.0%; height: 100.0%;"><b>Artplay</b><br>EV stations: 25</div>`)[0];
+                popup_d31af587514eb7d06d149688d719e796.setContent(html_df9ee2f5e6cf8156697806fba69487ea);
+            
+        
+
+        marker_45ce818d370c50b53fe7ca7c456e7879.bindPopup(popup_d31af587514eb7d06d149688d719e796)
+        ;
+
+        
+    
+    
+            var circle_d88ba967d7e53dcaebcf06973ffab69f = L.circle(
+                [-37.8184198800044, 144.971542586509],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_e96fe045439e44f0e4934526110d9b81 = L.marker(
+                [-37.8207887122448, 144.972951789291],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_dc0c0d7f8ad82712aa54866949209ea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e96fe045439e44f0e4934526110d9b81.setIcon(icon_dc0c0d7f8ad82712aa54866949209ea3);
+        
+    
+        var popup_e3f6dc6a9d32e688b259fd892830cf51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4007d7ece64616f5f448cf2fbdcb57ce = $(`<div id="html_4007d7ece64616f5f448cf2fbdcb57ce" style="width: 100.0%; height: 100.0%;"><b>Riverslide Skate Park</b><br>EV stations: 15</div>`)[0];
+                popup_e3f6dc6a9d32e688b259fd892830cf51.setContent(html_4007d7ece64616f5f448cf2fbdcb57ce);
+            
+        
+
+        marker_e96fe045439e44f0e4934526110d9b81.bindPopup(popup_e3f6dc6a9d32e688b259fd892830cf51)
+        ;
+
+        
+    
+    
+            var circle_24143bf1a6500d41258e42eeabcac90a = L.circle(
+                [-37.8207887122448, 144.972951789291],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_582ee27f400f0d827f151f2a8db823d0 = L.marker(
+                [-37.794964001386, 144.936190756632],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_b672b27cb94c82018177eacb048b73c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_582ee27f400f0d827f151f2a8db823d0.setIcon(icon_b672b27cb94c82018177eacb048b73c2);
+        
+    
+        var popup_3f32ef759b12a7436299ad52dee54a01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ef9160e20434946604edbb9df81a538 = $(`<div id="html_2ef9160e20434946604edbb9df81a538" style="width: 100.0%; height: 100.0%;"><b>Macaulay Railway Station (North Melbourne) - Train stop</b><br>EV stations: 2</div>`)[0];
+                popup_3f32ef759b12a7436299ad52dee54a01.setContent(html_2ef9160e20434946604edbb9df81a538);
+            
+        
+
+        marker_582ee27f400f0d827f151f2a8db823d0.bindPopup(popup_3f32ef759b12a7436299ad52dee54a01)
+        ;
+
+        
+    
+    
+            var circle_75120e997f089165ab4d7fcb982f08dd = L.circle(
+                [-37.794964001386, 144.936190756632],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_d2611e4e1dbe59ce70a831bb1a2830d1 = L.marker(
+                [-37.7939140126373, 144.930710207518],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_5098dc840fc9fbf655f7cc838bd76cfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d2611e4e1dbe59ce70a831bb1a2830d1.setIcon(icon_5098dc840fc9fbf655f7cc838bd76cfa);
+        
+    
+        var popup_19fc493ac176a928b03065166b094402 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be3f237feaaacb007b7764ae9e7d6da2 = $(`<div id="html_be3f237feaaacb007b7764ae9e7d6da2" style="width: 100.0%; height: 100.0%;"><b>Kensington Railway Station</b><br>EV stations: 2</div>`)[0];
+                popup_19fc493ac176a928b03065166b094402.setContent(html_be3f237feaaacb007b7764ae9e7d6da2);
+            
+        
+
+        marker_d2611e4e1dbe59ce70a831bb1a2830d1.bindPopup(popup_19fc493ac176a928b03065166b094402)
+        ;
+
+        
+    
+    
+            var circle_37cdb60ccce5521a0640cd6de3f3e161 = L.circle(
+                [-37.7939140126373, 144.930710207518],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_a303621b47ddaf941ba57524bdcf0ea1 = L.marker(
+                [-37.7906174256581, 144.953834240647],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_d8c58b68a9cd78a622254370a872daf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_a303621b47ddaf941ba57524bdcf0ea1.setIcon(icon_d8c58b68a9cd78a622254370a872daf1);
+        
+    
+        var popup_9fb4229a7e45c8cead6883adbcc40879 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae32cc649ff4c363c2233034860e3057 = $(`<div id="html_ae32cc649ff4c363c2233034860e3057" style="width: 100.0%; height: 100.0%;"><b>Royal Park</b><br>EV stations: 0</div>`)[0];
+                popup_9fb4229a7e45c8cead6883adbcc40879.setContent(html_ae32cc649ff4c363c2233034860e3057);
+            
+        
+
+        marker_a303621b47ddaf941ba57524bdcf0ea1.bindPopup(popup_9fb4229a7e45c8cead6883adbcc40879)
+        ;
+
+        
+    
+    
+            var circle_872d141daa9f411ce41fe4deb3c4667c = L.circle(
+                [-37.7906174256581, 144.953834240647],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_fb9099063d4c0b4a1c511a6a28ab101f = L.marker(
+                [-37.8320733992876, 144.973628364465],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_38358279a2d9f39a2883e10ce61b1dcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fb9099063d4c0b4a1c511a6a28ab101f.setIcon(icon_38358279a2d9f39a2883e10ce61b1dcc);
+        
+    
+        var popup_4a059c6099bf6f9ad3bbf03eea9c16f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f54d571ed402b76aef6968a619a6065a = $(`<div id="html_f54d571ed402b76aef6968a619a6065a" style="width: 100.0%; height: 100.0%;"><b>Shrine of Rembrance Reserve</b><br>EV stations: 4</div>`)[0];
+                popup_4a059c6099bf6f9ad3bbf03eea9c16f3.setContent(html_f54d571ed402b76aef6968a619a6065a);
+            
+        
+
+        marker_fb9099063d4c0b4a1c511a6a28ab101f.bindPopup(popup_4a059c6099bf6f9ad3bbf03eea9c16f3)
+        ;
+
+        
+    
+    
+            var circle_d33484e8309f54e996df87adeebee3e1 = L.circle(
+                [-37.8320733992876, 144.973628364465],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_1892db848e1843f695cb5ca92f22ceea = L.marker(
+                [-37.8306631583233, 144.980850432751],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_6f08fd301a5dafed5bb1a62e218b00da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1892db848e1843f695cb5ca92f22ceea.setIcon(icon_6f08fd301a5dafed5bb1a62e218b00da);
+        
+    
+        var popup_35dc6ad6eaf86f9b9582b3c52180191e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc842ed9e16cef9a220f3beb0ab44ac0 = $(`<div id="html_fc842ed9e16cef9a220f3beb0ab44ac0" style="width: 100.0%; height: 100.0%;"><b>Royal Botanic Gardens</b><br>EV stations: 2</div>`)[0];
+                popup_35dc6ad6eaf86f9b9582b3c52180191e.setContent(html_fc842ed9e16cef9a220f3beb0ab44ac0);
+            
+        
+
+        marker_1892db848e1843f695cb5ca92f22ceea.bindPopup(popup_35dc6ad6eaf86f9b9582b3c52180191e)
+        ;
+
+        
+    
+    
+            var circle_81c7a9814699a2ef2848fef30c4e96d2 = L.circle(
+                [-37.8306631583233, 144.980850432751],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_2bfe1b8339e8b2520f0c0c6877f59955 = L.marker(
+                [-37.820469374101, 144.986671109615],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_145607cd1557f5e0523e7915b1d8b804 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2bfe1b8339e8b2520f0c0c6877f59955.setIcon(icon_145607cd1557f5e0523e7915b1d8b804);
+        
+    
+        var popup_4dd0a263b6da3cba11ce8735bbd5b7b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3c09e9343612a32e1a6b4897f3d9bd1 = $(`<div id="html_d3c09e9343612a32e1a6b4897f3d9bd1" style="width: 100.0%; height: 100.0%;"><b>Yarra Park</b><br>EV stations: 2</div>`)[0];
+                popup_4dd0a263b6da3cba11ce8735bbd5b7b7.setContent(html_d3c09e9343612a32e1a6b4897f3d9bd1);
+            
+        
+
+        marker_2bfe1b8339e8b2520f0c0c6877f59955.bindPopup(popup_4dd0a263b6da3cba11ce8735bbd5b7b7)
+        ;
+
+        
+    
+    
+            var circle_72b5af8acaccb50405c818e30f46fd90 = L.circle(
+                [-37.820469374101, 144.986671109615],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_bef4257b39d8587c48f5a33ea3c35433 = L.marker(
+                [-37.8121881194053, 144.935684018873],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_e194b1a729142ce0db4eb5cca95ad989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bef4257b39d8587c48f5a33ea3c35433.setIcon(icon_e194b1a729142ce0db4eb5cca95ad989);
+        
+    
+        var popup_a119ed54aca16f4a2b177089e1b95918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_686aa3f221404a83e5fb0c6b278676c9 = $(`<div id="html_686aa3f221404a83e5fb0c6b278676c9" style="width: 100.0%; height: 100.0%;"><b>Icehouse</b><br>EV stations: 4</div>`)[0];
+                popup_a119ed54aca16f4a2b177089e1b95918.setContent(html_686aa3f221404a83e5fb0c6b278676c9);
+            
+        
+
+        marker_bef4257b39d8587c48f5a33ea3c35433.bindPopup(popup_a119ed54aca16f4a2b177089e1b95918)
+        ;
+
+        
+    
+    
+            var circle_cc17b15391dfdd2ecab5bf483fa32de2 = L.circle(
+                [-37.8121881194053, 144.935684018873],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_ed3ee2fda86fc135094d9558bb00a6de = L.marker(
+                [-37.8121572789173, 144.973742010011],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_1ced67f9ded0996f8c8ae6aecf7dc610 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ed3ee2fda86fc135094d9558bb00a6de.setIcon(icon_1ced67f9ded0996f8c8ae6aecf7dc610);
+        
+    
+        var popup_c35a51790b205a6bfd1f7c69f6968564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29621810449f29cd91c705ba5e8e78ae = $(`<div id="html_29621810449f29cd91c705ba5e8e78ae" style="width: 100.0%; height: 100.0%;"><b>Parliament Railway Station</b><br>EV stations: 21</div>`)[0];
+                popup_c35a51790b205a6bfd1f7c69f6968564.setContent(html_29621810449f29cd91c705ba5e8e78ae);
+            
+        
+
+        marker_ed3ee2fda86fc135094d9558bb00a6de.bindPopup(popup_c35a51790b205a6bfd1f7c69f6968564)
+        ;
+
+        
+    
+    
+            var circle_57a1166de201bc61861be7476b10a2e5 = L.circle(
+                [-37.8121572789173, 144.973742010011],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_355a8752bba406c1e76dabf1bcf1e66e = L.marker(
+                [-37.7869105822519, 144.908190706069],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_e17e3d224608692cff93b9ab2ae2703c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_355a8752bba406c1e76dabf1bcf1e66e.setIcon(icon_e17e3d224608692cff93b9ab2ae2703c);
+        
+    
+        var popup_d776ee66996ac4f35d37b7269157668f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_964c579f8f9c3495108862d33e415cfd = $(`<div id="html_964c579f8f9c3495108862d33e415cfd" style="width: 100.0%; height: 100.0%;"><b>Flemington Racecourse Railway Station</b><br>EV stations: 0</div>`)[0];
+                popup_d776ee66996ac4f35d37b7269157668f.setContent(html_964c579f8f9c3495108862d33e415cfd);
+            
+        
+
+        marker_355a8752bba406c1e76dabf1bcf1e66e.bindPopup(popup_d776ee66996ac4f35d37b7269157668f)
+        ;
+
+        
+    
+    
+            var circle_f088b215395331c7a46f3938b9989740 = L.circle(
+                [-37.7869105822519, 144.908190706069],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_d47096b1377b789c621079e70185abb1 = L.marker(
+                [-37.81299206932, 144.989062559512],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_24f81e72271340ed9591238a41b64b34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d47096b1377b789c621079e70185abb1.setIcon(icon_24f81e72271340ed9591238a41b64b34);
+        
+    
+        var popup_d3aaab2e98e9c1a49104280b276c4a89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_649453bb1ccc2489d15d28c26ba47574 = $(`<div id="html_649453bb1ccc2489d15d28c26ba47574" style="width: 100.0%; height: 100.0%;"><b>Darling Square</b><br>EV stations: 3</div>`)[0];
+                popup_d3aaab2e98e9c1a49104280b276c4a89.setContent(html_649453bb1ccc2489d15d28c26ba47574);
+            
+        
+
+        marker_d47096b1377b789c621079e70185abb1.bindPopup(popup_d3aaab2e98e9c1a49104280b276c4a89)
+        ;
+
+        
+    
+    
+            var circle_6120c07c6446715555ef3f394635a00a = L.circle(
+                [-37.81299206932, 144.989062559512],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_2b7f7f7edb0421911bed87370af6c8bc = L.marker(
+                [-37.809852620638, 144.973462202839],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_2d29cf857d04fac71a4e191acfdf9436 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_2b7f7f7edb0421911bed87370af6c8bc.setIcon(icon_2d29cf857d04fac71a4e191acfdf9436);
+        
+    
+        var popup_89b90e940c82fb02b18955b08d974878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d7ffb46deffee0e7c3370b1d94d9683 = $(`<div id="html_0d7ffb46deffee0e7c3370b1d94d9683" style="width: 100.0%; height: 100.0%;"><b>Parliament Reserve</b><br>EV stations: 20</div>`)[0];
+                popup_89b90e940c82fb02b18955b08d974878.setContent(html_0d7ffb46deffee0e7c3370b1d94d9683);
+            
+        
+
+        marker_2b7f7f7edb0421911bed87370af6c8bc.bindPopup(popup_89b90e940c82fb02b18955b08d974878)
+        ;
+
+        
+    
+    
+            var circle_4c803dacd451af2e0959628c93541e3b = L.circle(
+                [-37.809852620638, 144.973462202839],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_94490f1199ee0c824215afe38c558e6f = L.marker(
+                [-37.7999470049655, 144.943290801869],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_6eea421a55e5113be1e2ee46e81477b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_94490f1199ee0c824215afe38c558e6f.setIcon(icon_6eea421a55e5113be1e2ee46e81477b9);
+        
+    
+        var popup_5107f8161d77540f0005948f3fcea939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a288dc85f9e329eff3615b791fd718cd = $(`<div id="html_a288dc85f9e329eff3615b791fd718cd" style="width: 100.0%; height: 100.0%;"><b>North Melbourne Recreation Centre (Aquatic)</b><br>EV stations: 0</div>`)[0];
+                popup_5107f8161d77540f0005948f3fcea939.setContent(html_a288dc85f9e329eff3615b791fd718cd);
+            
+        
+
+        marker_94490f1199ee0c824215afe38c558e6f.bindPopup(popup_5107f8161d77540f0005948f3fcea939)
+        ;
+
+        
+    
+    
+            var circle_fb1c07fb57267ea0efd3539616027000 = L.circle(
+                [-37.7999470049655, 144.943290801869],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_66ffbb0c57b709a2cb3f2f2259eb8274 = L.marker(
+                [-37.7997051197931, 144.940368286395],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_09ec2757cddce405fb25213afc344868 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_66ffbb0c57b709a2cb3f2f2259eb8274.setIcon(icon_09ec2757cddce405fb25213afc344868);
+        
+    
+        var popup_3bf895bf0c2f66ef32237e8e97b58f37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2392ecfabc220016b106033beff81fc7 = $(`<div id="html_2392ecfabc220016b106033beff81fc7" style="width: 100.0%; height: 100.0%;"><b>North Melbourne Recreation Centre (Gymnasium)</b><br>EV stations: 0</div>`)[0];
+                popup_3bf895bf0c2f66ef32237e8e97b58f37.setContent(html_2392ecfabc220016b106033beff81fc7);
+            
+        
+
+        marker_66ffbb0c57b709a2cb3f2f2259eb8274.bindPopup(popup_3bf895bf0c2f66ef32237e8e97b58f37)
+        ;
+
+        
+    
+    
+            var circle_a7633a9d1be29980a07245b0868870bd = L.circle(
+                [-37.7997051197931, 144.940368286395],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_f799dc3936799ec4034ce4562ce1734e = L.marker(
+                [-37.7934377042609, 144.971696548624],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_139584b54c0231128aa899d37332af69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f799dc3936799ec4034ce4562ce1734e.setIcon(icon_139584b54c0231128aa899d37332af69);
+        
+    
+        var popup_d7e626e444f4a9ad83e6d5c6a8660815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37761d0c163354845abeb36a93a54ca9 = $(`<div id="html_37761d0c163354845abeb36a93a54ca9" style="width: 100.0%; height: 100.0%;"><b>Carlton Baths</b><br>EV stations: 0</div>`)[0];
+                popup_d7e626e444f4a9ad83e6d5c6a8660815.setContent(html_37761d0c163354845abeb36a93a54ca9);
+            
+        
+
+        marker_f799dc3936799ec4034ce4562ce1734e.bindPopup(popup_d7e626e444f4a9ad83e6d5c6a8660815)
+        ;
+
+        
+    
+    
+            var circle_6860b2a1b93c880d3ec4482db11e32c9 = L.circle(
+                [-37.7934377042609, 144.971696548624],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_36dc2eeb12accdc72429c5e035f0389d = L.marker(
+                [-37.814002127195, 144.9785597431],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_3d878f7c451ea8c9d293f8c12ed6b959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_36dc2eeb12accdc72429c5e035f0389d.setIcon(icon_3d878f7c451ea8c9d293f8c12ed6b959);
+        
+    
+        var popup_2ad6a65cbc16417605eba21863be4e9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acacd45483e05df4d7f0806b7bd9ed56 = $(`<div id="html_acacd45483e05df4d7f0806b7bd9ed56" style="width: 100.0%; height: 100.0%;"><b>Conservatory</b><br>EV stations: 16</div>`)[0];
+                popup_2ad6a65cbc16417605eba21863be4e9b.setContent(html_acacd45483e05df4d7f0806b7bd9ed56);
+            
+        
+
+        marker_36dc2eeb12accdc72429c5e035f0389d.bindPopup(popup_2ad6a65cbc16417605eba21863be4e9b)
+        ;
+
+        
+    
+    
+            var circle_6b9a203743af38c43e70b9c0905f0653 = L.circle(
+                [-37.814002127195, 144.9785597431],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_5191c11e1f60c706af2c70f32cf9524a = L.marker(
+                [-37.8177352402006, 144.967937138226],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_093a4eb89342fd5e4a0043d8a14c0423 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5191c11e1f60c706af2c70f32cf9524a.setIcon(icon_093a4eb89342fd5e4a0043d8a14c0423);
+        
+    
+        var popup_be687f71ed882f02f2453a1115ec1ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e6280fd2012739484d2f0603c644e4 = $(`<div id="html_c6e6280fd2012739484d2f0603c644e4" style="width: 100.0%; height: 100.0%;"><b>Melbourne Visitor Centre</b><br>EV stations: 34</div>`)[0];
+                popup_be687f71ed882f02f2453a1115ec1ad5.setContent(html_c6e6280fd2012739484d2f0603c644e4);
+            
+        
+
+        marker_5191c11e1f60c706af2c70f32cf9524a.bindPopup(popup_be687f71ed882f02f2453a1115ec1ad5)
+        ;
+
+        
+    
+    
+            var circle_84ef353969f5fc8766f8673603d7e481 = L.circle(
+                [-37.8177352402006, 144.967937138226],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_caf7192b45c8e470d7da3d5a93be0a00 = L.marker(
+                [-37.8139525061193, 144.964425882562],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_5eb8d3abe57b4bf8d0b90e15ea886d15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_caf7192b45c8e470d7da3d5a93be0a00.setIcon(icon_5eb8d3abe57b4bf8d0b90e15ea886d15);
+        
+    
+        var popup_6a93f9c3551e96d5c7e7786e1fdc7ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af78351838e3073a520449ca6b8539fd = $(`<div id="html_af78351838e3073a520449ca6b8539fd" style="width: 100.0%; height: 100.0%;"><b>Melbourne Visitor Booth</b><br>EV stations: 44</div>`)[0];
+                popup_6a93f9c3551e96d5c7e7786e1fdc7ea9.setContent(html_af78351838e3073a520449ca6b8539fd);
+            
+        
+
+        marker_caf7192b45c8e470d7da3d5a93be0a00.bindPopup(popup_6a93f9c3551e96d5c7e7786e1fdc7ea9)
+        ;
+
+        
+    
+    
+            var circle_59081e2505797d1959f055eb89c8755f = L.circle(
+                [-37.8139525061193, 144.964425882562],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_90a288ee7ba95e2065ee450d738d68e3 = L.marker(
+                [-37.7857860016289, 144.947580972027],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_f25004d78af2083b8044087f1ed3a081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_90a288ee7ba95e2065ee450d738d68e3.setIcon(icon_f25004d78af2083b8044087f1ed3a081);
+        
+    
+        var popup_15aadc19c7ef73e5f3b44b510cd2af9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acc73892057800637fc95e7126c1bb4b = $(`<div id="html_acc73892057800637fc95e7126c1bb4b" style="width: 100.0%; height: 100.0%;"><b>State Netball Hockey Centre</b><br>EV stations: 0</div>`)[0];
+                popup_15aadc19c7ef73e5f3b44b510cd2af9e.setContent(html_acc73892057800637fc95e7126c1bb4b);
+            
+        
+
+        marker_90a288ee7ba95e2065ee450d738d68e3.bindPopup(popup_15aadc19c7ef73e5f3b44b510cd2af9e)
+        ;
+
+        
+    
+    
+            var circle_e7fa5694dd663d7c8d07ff13ed5a3b61 = L.circle(
+                [-37.7857860016289, 144.947580972027],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_d12a6506192693f9c29ad8b26112c266 = L.marker(
+                [-37.800410711209, 144.960398319302],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_ccac1e55c96e04ba9227aa0b0496c42a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d12a6506192693f9c29ad8b26112c266.setIcon(icon_ccac1e55c96e04ba9227aa0b0496c42a);
+        
+    
+        var popup_729641cd71807e1f4b783268996cb6dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d238c38fc36f1f0fbbee929d7f435ac0 = $(`<div id="html_d238c38fc36f1f0fbbee929d7f435ac0" style="width: 100.0%; height: 100.0%;"><b>University Square</b><br>EV stations: 4</div>`)[0];
+                popup_729641cd71807e1f4b783268996cb6dc.setContent(html_d238c38fc36f1f0fbbee929d7f435ac0);
+            
+        
+
+        marker_d12a6506192693f9c29ad8b26112c266.bindPopup(popup_729641cd71807e1f4b783268996cb6dc)
+        ;
+
+        
+    
+    
+            var circle_4aaee65d2b095f4ae97deb4a1c82e9db = L.circle(
+                [-37.800410711209, 144.960398319302],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_c77996f40f2d46e24108ce6e6b0fa011 = L.marker(
+                [-37.8116929882498, 144.987275671763],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_293412ff45594e1638637a33944c708e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c77996f40f2d46e24108ce6e6b0fa011.setIcon(icon_293412ff45594e1638637a33944c708e);
+        
+    
+        var popup_cccf146728f4f0b7663f5ffe52ad8513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69aeadb8d194fe3136d8055cc43cd9eb = $(`<div id="html_69aeadb8d194fe3136d8055cc43cd9eb" style="width: 100.0%; height: 100.0%;"><b>Powlett Reserve</b><br>EV stations: 6</div>`)[0];
+                popup_cccf146728f4f0b7663f5ffe52ad8513.setContent(html_69aeadb8d194fe3136d8055cc43cd9eb);
+            
+        
+
+        marker_c77996f40f2d46e24108ce6e6b0fa011.bindPopup(popup_cccf146728f4f0b7663f5ffe52ad8513)
+        ;
+
+        
+    
+    
+            var circle_db70af9254ef365fc802b1b63414f233 = L.circle(
+                [-37.8116929882498, 144.987275671763],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_23d6ed98f4aac8da891af6c4ce03d1a5 = L.marker(
+                [-37.7891890023616, 144.965785979892],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_6883712fb303c033684b2efeeda25630 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_23d6ed98f4aac8da891af6c4ce03d1a5.setIcon(icon_6883712fb303c033684b2efeeda25630);
+        
+    
+        var popup_66803b58023ce3ff2980786c7e6fa259 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da5577c3ed942e3ceb68114f6607f9e5 = $(`<div id="html_da5577c3ed942e3ceb68114f6607f9e5" style="width: 100.0%; height: 100.0%;"><b>Melbourne General Cemetery</b><br>EV stations: 0</div>`)[0];
+                popup_66803b58023ce3ff2980786c7e6fa259.setContent(html_da5577c3ed942e3ceb68114f6607f9e5);
+            
+        
+
+        marker_23d6ed98f4aac8da891af6c4ce03d1a5.bindPopup(popup_66803b58023ce3ff2980786c7e6fa259)
+        ;
+
+        
+    
+    
+            var circle_e31411030f16705097e2c6d59f68ebe5 = L.circle(
+                [-37.7891890023616, 144.965785979892],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_529d93f4d79a9ea40e552a1750cef7fc = L.marker(
+                [-37.8181633057171, 144.952944748845],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_4837699a21c6588fa47dfc04ff9f3df1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_529d93f4d79a9ea40e552a1750cef7fc.setIcon(icon_4837699a21c6588fa47dfc04ff9f3df1);
+        
+    
+        var popup_ea04f49cf30fc2e188ec25d88ba77326 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_143a9fb2ead6594974e407a4020572ab = $(`<div id="html_143a9fb2ead6594974e407a4020572ab" style="width: 100.0%; height: 100.0%;"><b>Southern Cross Railway Station</b><br>EV stations: 28</div>`)[0];
+                popup_ea04f49cf30fc2e188ec25d88ba77326.setContent(html_143a9fb2ead6594974e407a4020572ab);
+            
+        
+
+        marker_529d93f4d79a9ea40e552a1750cef7fc.bindPopup(popup_ea04f49cf30fc2e188ec25d88ba77326)
+        ;
+
+        
+    
+    
+            var circle_62e2f5aaec75e9c6a10a7252f31f7d93 = L.circle(
+                [-37.8181633057171, 144.952944748845],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_26a13c07b1fd30b104df7ecaf20a23eb = L.marker(
+                [-37.8099852201226, 144.964330322397],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_ca4b4ca6114bc75f36bb683287b6798f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26a13c07b1fd30b104df7ecaf20a23eb.setIcon(icon_ca4b4ca6114bc75f36bb683287b6798f);
+        
+    
+        var popup_13d8a6872588d9e3b82fa3cf9c45269c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ddb3977517654e15b690743f7066773 = $(`<div id="html_9ddb3977517654e15b690743f7066773" style="width: 100.0%; height: 100.0%;"><b>State Library Victoria</b><br>EV stations: 34</div>`)[0];
+                popup_13d8a6872588d9e3b82fa3cf9c45269c.setContent(html_9ddb3977517654e15b690743f7066773);
+            
+        
+
+        marker_26a13c07b1fd30b104df7ecaf20a23eb.bindPopup(popup_13d8a6872588d9e3b82fa3cf9c45269c)
+        ;
+
+        
+    
+    
+            var circle_9b460e85a761fb6a27242d456b3abfba = L.circle(
+                [-37.8099852201226, 144.964330322397],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_77ab9ab3b51b7615be454549d11586cd = L.marker(
+                [-37.8141494182814, 144.957894024264],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_89348f0d0a93c545bec7f43afadf9028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77ab9ab3b51b7615be454549d11586cd.setIcon(icon_89348f0d0a93c545bec7f43afadf9028);
+        
+    
+        var popup_b3575d7ccb388a88e2a24cf7d537ed2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efff2ffe0976b3e6233181bdc7ccb031 = $(`<div id="html_efff2ffe0976b3e6233181bdc7ccb031" style="width: 100.0%; height: 100.0%;"><b>Supreme Court</b><br>EV stations: 36</div>`)[0];
+                popup_b3575d7ccb388a88e2a24cf7d537ed2d.setContent(html_efff2ffe0976b3e6233181bdc7ccb031);
+            
+        
+
+        marker_77ab9ab3b51b7615be454549d11586cd.bindPopup(popup_b3575d7ccb388a88e2a24cf7d537ed2d)
+        ;
+
+        
+    
+    
+            var circle_847102d60a397d2aeb926c9012b153c9 = L.circle(
+                [-37.8141494182814, 144.957894024264],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_48effbfb24ac97a1f4acaf9e3e86078e = L.marker(
+                [-37.8216740022008, 144.988156318781],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_318e085337731b13c3bb097b539a38f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_48effbfb24ac97a1f4acaf9e3e86078e.setIcon(icon_318e085337731b13c3bb097b539a38f2);
+        
+    
+        var popup_383a5cc42f28cca3b2c0ab7e155e6515 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97b8b58ee61817e8b631772bdbc29917 = $(`<div id="html_97b8b58ee61817e8b631772bdbc29917" style="width: 100.0%; height: 100.0%;"><b>Richmond Football Club</b><br>EV stations: 2</div>`)[0];
+                popup_383a5cc42f28cca3b2c0ab7e155e6515.setContent(html_97b8b58ee61817e8b631772bdbc29917);
+            
+        
+
+        marker_48effbfb24ac97a1f4acaf9e3e86078e.bindPopup(popup_383a5cc42f28cca3b2c0ab7e155e6515)
+        ;
+
+        
+    
+    
+            var circle_3c1b69873c7e99210fc9e6c515af9280 = L.circle(
+                [-37.8216740022008, 144.988156318781],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_8d5bd073cfa21bffca92eb4f62c2b3f7 = L.marker(
+                [-37.7844449253712, 144.951371205938],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_cb4a0f29c39b90dc03754da845ebd410 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_8d5bd073cfa21bffca92eb4f62c2b3f7.setIcon(icon_cb4a0f29c39b90dc03754da845ebd410);
+        
+    
+        var popup_0a28e978006a0eefb8031b1ea31e0166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c509f42d8512658de3e5d10365aab26 = $(`<div id="html_9c509f42d8512658de3e5d10365aab26" style="width: 100.0%; height: 100.0%;"><b>Melbourne Zoo</b><br>EV stations: 0</div>`)[0];
+                popup_0a28e978006a0eefb8031b1ea31e0166.setContent(html_9c509f42d8512658de3e5d10365aab26);
+            
+        
+
+        marker_8d5bd073cfa21bffca92eb4f62c2b3f7.bindPopup(popup_0a28e978006a0eefb8031b1ea31e0166)
+        ;
+
+        
+    
+    
+            var circle_892f49251690d182368bb88c9dd334a6 = L.circle(
+                [-37.7844449253712, 144.951371205938],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_0736eefb5430ef4007c12edf08e1a82d = L.marker(
+                [-37.8292844929826, 144.913415802464],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_affe315ab761f3bdd30cb2dd117ada40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0736eefb5430ef4007c12edf08e1a82d.setIcon(icon_affe315ab761f3bdd30cb2dd117ada40);
+        
+    
+        var popup_93f7df89981be73304d2747b6dd26a43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41bca8b3ee466589cb7a5f7f680100d2 = $(`<div id="html_41bca8b3ee466589cb7a5f7f680100d2" style="width: 100.0%; height: 100.0%;"><b>Melbourne International Shooting Club</b><br>EV stations: 6</div>`)[0];
+                popup_93f7df89981be73304d2747b6dd26a43.setContent(html_41bca8b3ee466589cb7a5f7f680100d2);
+            
+        
+
+        marker_0736eefb5430ef4007c12edf08e1a82d.bindPopup(popup_93f7df89981be73304d2747b6dd26a43)
+        ;
+
+        
+    
+    
+            var circle_5193b8a14238b66e7787fe21eb8ce75a = L.circle(
+                [-37.8292844929826, 144.913415802464],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_244e731d08947035a9a17672299f4888 = L.marker(
+                [-37.8209956785618, 144.946781702342],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_4d4da2a5f1c2997b3caf2ba232c6939d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_244e731d08947035a9a17672299f4888.setIcon(icon_4d4da2a5f1c2997b3caf2ba232c6939d);
+        
+    
+        var popup_57ae031d438c99b2a37838888b53c3e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf77ee28487943d193acb2ae7deade25 = $(`<div id="html_cf77ee28487943d193acb2ae7deade25" style="width: 100.0%; height: 100.0%;"><b>Docklands Park</b><br>EV stations: 10</div>`)[0];
+                popup_57ae031d438c99b2a37838888b53c3e1.setContent(html_cf77ee28487943d193acb2ae7deade25);
+            
+        
+
+        marker_244e731d08947035a9a17672299f4888.bindPopup(popup_57ae031d438c99b2a37838888b53c3e1)
+        ;
+
+        
+    
+    
+            var circle_741682b440c86fd0d0b1721da4d43121 = L.circle(
+                [-37.8209956785618, 144.946781702342],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_bcb3d090aa0bdd90c8345a6feed9a27e = L.marker(
+                [-37.8233522700646, 144.942102276731],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_c1f75456f1798fcd98e7f1adead1996d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_bcb3d090aa0bdd90c8345a6feed9a27e.setIcon(icon_c1f75456f1798fcd98e7f1adead1996d);
+        
+    
+        var popup_1e8facc7f3ccd95da214410e04a4c665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f9fba370fd39ddc60412d758436971a = $(`<div id="html_2f9fba370fd39ddc60412d758436971a" style="width: 100.0%; height: 100.0%;"><b>Point Park</b><br>EV stations: 0</div>`)[0];
+                popup_1e8facc7f3ccd95da214410e04a4c665.setContent(html_2f9fba370fd39ddc60412d758436971a);
+            
+        
+
+        marker_bcb3d090aa0bdd90c8345a6feed9a27e.bindPopup(popup_1e8facc7f3ccd95da214410e04a4c665)
+        ;
+
+        
+    
+    
+            var circle_e03a1d790ae00e18d46427be691653ff = L.circle(
+                [-37.8233522700646, 144.942102276731],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_8a5289368f3d8f97476a6c58ecd9a401 = L.marker(
+                [-37.823930384816, 144.968297429894],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_231a47a91af1256d0890faff7e82cea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8a5289368f3d8f97476a6c58ecd9a401.setIcon(icon_231a47a91af1256d0890faff7e82cea3);
+        
+    
+        var popup_8c22ef5924eeff5abd9cd56d069d0a20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6021230ec6971cac5dd34d163bd46e61 = $(`<div id="html_6021230ec6971cac5dd34d163bd46e61" style="width: 100.0%; height: 100.0%;"><b>Melbourne Theatre Company</b><br>EV stations: 16</div>`)[0];
+                popup_8c22ef5924eeff5abd9cd56d069d0a20.setContent(html_6021230ec6971cac5dd34d163bd46e61);
+            
+        
+
+        marker_8a5289368f3d8f97476a6c58ecd9a401.bindPopup(popup_8c22ef5924eeff5abd9cd56d069d0a20)
+        ;
+
+        
+    
+    
+            var circle_cdf2ece4d136f570e68fcfc2bd5f265a = L.circle(
+                [-37.823930384816, 144.968297429894],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_1971b38436bafa095be3a91808c45f89 = L.marker(
+                [-37.8206051404251, 144.971796067365],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_d17f57f15e89366f9fd8d128933dc61b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_1971b38436bafa095be3a91808c45f89.setIcon(icon_d17f57f15e89366f9fd8d128933dc61b);
+        
+    
+        var popup_cbe45a9a807d7aa885c931b148d0f19c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70c40c5d91a9240d640872c2119ba0eb = $(`<div id="html_70c40c5d91a9240d640872c2119ba0eb" style="width: 100.0%; height: 100.0%;"><b>Alexandra Gardens</b><br>EV stations: 15</div>`)[0];
+                popup_cbe45a9a807d7aa885c931b148d0f19c.setContent(html_70c40c5d91a9240d640872c2119ba0eb);
+            
+        
+
+        marker_1971b38436bafa095be3a91808c45f89.bindPopup(popup_cbe45a9a807d7aa885c931b148d0f19c)
+        ;
+
+        
+    
+    
+            var circle_61c3a80357e111147973d728c25a6baa = L.circle(
+                [-37.8206051404251, 144.971796067365],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_d2bcfd6a1b817d4e7d9e1b66c619500a = L.marker(
+                [-37.8238992659834, 144.989400751664],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_c98b6b76ac4c96ef39ef0ad167f6e507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_d2bcfd6a1b817d4e7d9e1b66c619500a.setIcon(icon_c98b6b76ac4c96ef39ef0ad167f6e507);
+        
+    
+        var popup_8887db0f8f374c5b885dc3407fc94b60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db70b93d257985f1fbb033cf658a8ce3 = $(`<div id="html_db70b93d257985f1fbb033cf658a8ce3" style="width: 100.0%; height: 100.0%;"><b>Richmond Railway Station (Richmond) - Train stop</b><br>EV stations: 0</div>`)[0];
+                popup_8887db0f8f374c5b885dc3407fc94b60.setContent(html_db70b93d257985f1fbb033cf658a8ce3);
+            
+        
+
+        marker_d2bcfd6a1b817d4e7d9e1b66c619500a.bindPopup(popup_8887db0f8f374c5b885dc3407fc94b60)
+        ;
+
+        
+    
+    
+            var circle_74fdaa62ceed4bac52c75e0e7f6c8257 = L.circle(
+                [-37.8238992659834, 144.989400751664],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_1e5a5ccfe40f441e2be26ed1b5520ccf = L.marker(
+                [-37.8165651811668, 144.983641003377],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_36080cdc66efb85c04a0a98f4e376df5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1e5a5ccfe40f441e2be26ed1b5520ccf.setIcon(icon_36080cdc66efb85c04a0a98f4e376df5);
+        
+    
+        var popup_4e88d249fd914c83a571f717b2fc2f76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2978cc20cb71ece4607cbac2605b7c08 = $(`<div id="html_2978cc20cb71ece4607cbac2605b7c08" style="width: 100.0%; height: 100.0%;"><b>Jolimont-MCG Railway Station (East Melbourne) - Train stop</b><br>EV stations: 4</div>`)[0];
+                popup_4e88d249fd914c83a571f717b2fc2f76.setContent(html_2978cc20cb71ece4607cbac2605b7c08);
+            
+        
+
+        marker_1e5a5ccfe40f441e2be26ed1b5520ccf.bindPopup(popup_4e88d249fd914c83a571f717b2fc2f76)
+        ;
+
+        
+    
+    
+            var circle_c4a28d1232c6a5322a030e4c0c27580f = L.circle(
+                [-37.8165651811668, 144.983641003377],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_2f967254927ac5b95b93a26e557d9063 = L.marker(
+                [-37.7988345257153, 144.941452061463],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_122d4ece719495dcf6d8caf8bc3eaa8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_2f967254927ac5b95b93a26e557d9063.setIcon(icon_122d4ece719495dcf6d8caf8bc3eaa8d);
+        
+    
+        var popup_9c2225caf065050da1f71b7a5c2eb193 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ba1d45c62f34841261db8872d15913 = $(`<div id="html_b3ba1d45c62f34841261db8872d15913" style="width: 100.0%; height: 100.0%;"><b>North Melbourne Recreation Reserve</b><br>EV stations: 0</div>`)[0];
+                popup_9c2225caf065050da1f71b7a5c2eb193.setContent(html_b3ba1d45c62f34841261db8872d15913);
+            
+        
+
+        marker_2f967254927ac5b95b93a26e557d9063.bindPopup(popup_9c2225caf065050da1f71b7a5c2eb193)
+        ;
+
+        
+    
+    
+            var circle_7b92b3db28541f9b1c3882d344a0e519 = L.circle(
+                [-37.7988345257153, 144.941452061463],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_6c8a4a2504c334c76a583703e3936b3b = L.marker(
+                [-37.7870161727156, 144.961115214367],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_269f46cd2a227f6c2570b59e06e7a081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_6c8a4a2504c334c76a583703e3936b3b.setIcon(icon_269f46cd2a227f6c2570b59e06e7a081);
+        
+    
+        var popup_393e7cd8a8958d92ddd2f063f576b3ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7385d2044fcd0f43262ba691f507773d = $(`<div id="html_7385d2044fcd0f43262ba691f507773d" style="width: 100.0%; height: 100.0%;"><b>Princes Park</b><br>EV stations: 0</div>`)[0];
+                popup_393e7cd8a8958d92ddd2f063f576b3ba.setContent(html_7385d2044fcd0f43262ba691f507773d);
+            
+        
+
+        marker_6c8a4a2504c334c76a583703e3936b3b.bindPopup(popup_393e7cd8a8958d92ddd2f063f576b3ba)
+        ;
+
+        
+    
+    
+            var circle_c2ce125b853c751ef13cf3e058221c8c = L.circle(
+                [-37.7870161727156, 144.961115214367],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_ab1199cfd4fd0d0d1944b87b1ea28e5a = L.marker(
+                [-37.8302080020387, 144.973441913623],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_9772fbd24a1d7bed92bf2d20754fd920 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ab1199cfd4fd0d0d1944b87b1ea28e5a.setIcon(icon_9772fbd24a1d7bed92bf2d20754fd920);
+        
+    
+        var popup_29285701e5b99978cd1234b207cc2fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f6f43af16ad66f5f93585d83c1dec69 = $(`<div id="html_8f6f43af16ad66f5f93585d83c1dec69" style="width: 100.0%; height: 100.0%;"><b>Shrine of Remembrance</b><br>EV stations: 5</div>`)[0];
+                popup_29285701e5b99978cd1234b207cc2fd4.setContent(html_8f6f43af16ad66f5f93585d83c1dec69);
+            
+        
+
+        marker_ab1199cfd4fd0d0d1944b87b1ea28e5a.bindPopup(popup_29285701e5b99978cd1234b207cc2fd4)
+        ;
+
+        
+    
+    
+            var circle_48f1d3f3cce68e54090e5203a42897c5 = L.circle(
+                [-37.8302080020387, 144.973441913623],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_b945b6e172ef140a016e45ef200e0311 = L.marker(
+                [-37.7834651216244, 144.914902626775],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_ca6c709ced151b3f8ba9d8549eeca73b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_b945b6e172ef140a016e45ef200e0311.setIcon(icon_ca6c709ced151b3f8ba9d8549eeca73b);
+        
+    
+        var popup_f81c8b5f8e32284e23f07283c8eba580 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baf266571ebce3b5394282b60deb02ae = $(`<div id="html_baf266571ebce3b5394282b60deb02ae" style="width: 100.0%; height: 100.0%;"><b>Showgrounds Railway Station (Flemington)</b><br>EV stations: 0</div>`)[0];
+                popup_f81c8b5f8e32284e23f07283c8eba580.setContent(html_baf266571ebce3b5394282b60deb02ae);
+            
+        
+
+        marker_b945b6e172ef140a016e45ef200e0311.bindPopup(popup_f81c8b5f8e32284e23f07283c8eba580)
+        ;
+
+        
+    
+    
+            var circle_548bef2fa5ad47b510b1b5851f1fd67d = L.circle(
+                [-37.7834651216244, 144.914902626775],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_65bfcf05f3c4d02f9562cf590b71d51c = L.marker(
+                [-37.7872726241965, 144.929059958114],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_93af264f3f72ef8bcf63b975a05aabd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_65bfcf05f3c4d02f9562cf590b71d51c.setIcon(icon_93af264f3f72ef8bcf63b975a05aabd8);
+        
+    
+        var popup_bbc19cb734e53fbdea2179a86995d968 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11164ab555865044e18b49cff470b53b = $(`<div id="html_11164ab555865044e18b49cff470b53b" style="width: 100.0%; height: 100.0%;"><b>Newmarket Railway Station</b><br>EV stations: 0</div>`)[0];
+                popup_bbc19cb734e53fbdea2179a86995d968.setContent(html_11164ab555865044e18b49cff470b53b);
+            
+        
+
+        marker_65bfcf05f3c4d02f9562cf590b71d51c.bindPopup(popup_bbc19cb734e53fbdea2179a86995d968)
+        ;
+
+        
+    
+    
+            var circle_0508c443a0b5d5f4a504974876620a50 = L.circle(
+                [-37.7872726241965, 144.929059958114],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_d716fbe137733af78b55c8d271cc88b5 = L.marker(
+                [-37.7823097850883, 144.910822117306],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_732f54fa9f8cd9e58fabfd19820c81b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_d716fbe137733af78b55c8d271cc88b5.setIcon(icon_732f54fa9f8cd9e58fabfd19820c81b7);
+        
+    
+        var popup_415cbf70093e6807865b3924e0b3dc02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44eb2b92b20eb2c852fac29c33bae196 = $(`<div id="html_44eb2b92b20eb2c852fac29c33bae196" style="width: 100.0%; height: 100.0%;"><b>Melbourne Showgrounds</b><br>EV stations: 0</div>`)[0];
+                popup_415cbf70093e6807865b3924e0b3dc02.setContent(html_44eb2b92b20eb2c852fac29c33bae196);
+            
+        
+
+        marker_d716fbe137733af78b55c8d271cc88b5.bindPopup(popup_415cbf70093e6807865b3924e0b3dc02)
+        ;
+
+        
+    
+    
+            var circle_3e32b36ede42ee627347124bc998de43 = L.circle(
+                [-37.7823097850883, 144.910822117306],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_994dbb2563637aff61ca2a37e1302079 = L.marker(
+                [-37.8031480577285, 144.965761295089],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_bd23b8b4dcc46aa0064698782af4cc05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_994dbb2563637aff61ca2a37e1302079.setIcon(icon_bd23b8b4dcc46aa0064698782af4cc05);
+        
+    
+        var popup_84774f81194996129473a4b83a8f43c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a1303c82024e79ae8146e801431ff4e = $(`<div id="html_4a1303c82024e79ae8146e801431ff4e" style="width: 100.0%; height: 100.0%;"><b>Argyle Square</b><br>EV stations: 16</div>`)[0];
+                popup_84774f81194996129473a4b83a8f43c0.setContent(html_4a1303c82024e79ae8146e801431ff4e);
+            
+        
+
+        marker_994dbb2563637aff61ca2a37e1302079.bindPopup(popup_84774f81194996129473a4b83a8f43c0)
+        ;
+
+        
+    
+    
+            var circle_f016ff4b669da24b05c5401e36019031 = L.circle(
+                [-37.8031480577285, 144.965761295089],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_1a1ad4c71a443f18e4a8354538c25814 = L.marker(
+                [-37.8025164192523, 144.965863092947],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_5bf718b6c7c01b7a1e39e007741e6e7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_1a1ad4c71a443f18e4a8354538c25814.setIcon(icon_5bf718b6c7c01b7a1e39e007741e6e7a);
+        
+    
+        var popup_145157fe416302025a825d8c0e59a14f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55e65c9556049b409ee8995fa1accf51 = $(`<div id="html_55e65c9556049b409ee8995fa1accf51" style="width: 100.0%; height: 100.0%;"><b>Piazza Italia</b><br>EV stations: 13</div>`)[0];
+                popup_145157fe416302025a825d8c0e59a14f.setContent(html_55e65c9556049b409ee8995fa1accf51);
+            
+        
+
+        marker_1a1ad4c71a443f18e4a8354538c25814.bindPopup(popup_145157fe416302025a825d8c0e59a14f)
+        ;
+
+        
+    
+    
+            var circle_102c41186e7486a03c98a9ff11494310 = L.circle(
+                [-37.8025164192523, 144.965863092947],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_a5fe730498436f83b07bf1482c041e3b = L.marker(
+                [-37.8002735025371, 144.973059252203],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_bd6cf2fb411740cfcca2b635032f2828 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a5fe730498436f83b07bf1482c041e3b.setIcon(icon_bd6cf2fb411740cfcca2b635032f2828);
+        
+    
+        var popup_5ef56f6a9fe3e95e19220a804200e8d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d609fbc9eb6b1f91fa47bcdac75f381 = $(`<div id="html_3d609fbc9eb6b1f91fa47bcdac75f381" style="width: 100.0%; height: 100.0%;"><b>Murchinson Square</b><br>EV stations: 4</div>`)[0];
+                popup_5ef56f6a9fe3e95e19220a804200e8d1.setContent(html_3d609fbc9eb6b1f91fa47bcdac75f381);
+            
+        
+
+        marker_a5fe730498436f83b07bf1482c041e3b.bindPopup(popup_5ef56f6a9fe3e95e19220a804200e8d1)
+        ;
+
+        
+    
+    
+            var circle_6e92a0a974d3027575b8869d66744c7e = L.circle(
+                [-37.8002735025371, 144.973059252203],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_44d5db02a81141955d836bc2f83de72d = L.marker(
+                [-37.8242456858593, 144.979720306309],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_c0cbad857b62969dc87be0e23426a95f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_44d5db02a81141955d836bc2f83de72d.setIcon(icon_c0cbad857b62969dc87be0e23426a95f);
+        
+    
+        var popup_9db04d237f5468224358b4b8f58852fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15464a203fce21627f8e74f3f4146ecf = $(`<div id="html_15464a203fce21627f8e74f3f4146ecf" style="width: 100.0%; height: 100.0%;"><b>Westpac Centre</b><br>EV stations: 2</div>`)[0];
+                popup_9db04d237f5468224358b4b8f58852fb.setContent(html_15464a203fce21627f8e74f3f4146ecf);
+            
+        
+
+        marker_44d5db02a81141955d836bc2f83de72d.bindPopup(popup_9db04d237f5468224358b4b8f58852fb)
+        ;
+
+        
+    
+    
+            var circle_6040a15b80b5e2623f7678403d37dbd6 = L.circle(
+                [-37.8242456858593, 144.979720306309],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var marker_0eb36b158240bdfa161db8f1e0fe0c79 = L.marker(
+                [-37.8232052384507, 144.947291011905],
+                {}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+    
+            var icon_a8714112bda414bf0409cf54ad63ada2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0eb36b158240bdfa161db8f1e0fe0c79.setIcon(icon_a8714112bda414bf0409cf54ad63ada2);
+        
+    
+        var popup_f7f63cbf535cede64851c6a8e0c2aecb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d825beeadfbe7156771508f2fc88361 = $(`<div id="html_3d825beeadfbe7156771508f2fc88361" style="width: 100.0%; height: 100.0%;"><b>Webb Bridge</b><br>EV stations: 7</div>`)[0];
+                popup_f7f63cbf535cede64851c6a8e0c2aecb.setContent(html_3d825beeadfbe7156771508f2fc88361);
+            
+        
+
+        marker_0eb36b158240bdfa161db8f1e0fe0c79.bindPopup(popup_f7f63cbf535cede64851c6a8e0c2aecb)
+        ;
+
+        
+    
+    
+            var circle_fef474e08959d9e73b52d3da977f1a35 = L.circle(
+                [-37.8232052384507, 144.947291011905],
+                {"bubblingMouseEvents": true, "color": null, "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_67367668949a6280c2dcc9a1cab4ef99);
+        
+</script>
+</html>
