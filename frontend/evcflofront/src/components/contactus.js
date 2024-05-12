@@ -1,5 +1,16 @@
 import Title from './Title';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 const ContactUs = () => {
+
+  const navigate = useNavigate();  // Get the useNavigate hook
+
+    const goToSupportPage = () => {
+        navigate('/support');  // Navigate to the Support page
+    } 
+
+
   return (
     <div>
       <Title title="Contact" subTitle="Us" />
@@ -23,6 +34,7 @@ const ContactUs = () => {
                 <p>Building no : 15 , Street : 206 ,Block : 3 , second Floor</p>
                 <p>Office No. : 6 , PO box: 1138 </p>
                 <br></br>
+                <input type="submit" value="Back" className="form-submit" onClick={goToSupportPage} />
               </div>
             </div>
           </div>
