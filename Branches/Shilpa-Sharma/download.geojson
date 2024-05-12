@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2024-04-30T10:49:41Z",
+  "timestamp": "2024-05-12T09:06:43Z",
   "features": [
     {
       "type": "Feature",
@@ -262,8 +262,8 @@
         "name": "Tesla Supercharger",
         "opening_hours": "24/7",
         "operator": "HomeCo North Lakes",
-        "socket:CCS:output": "25 kW",
-        "socket:tesla_supercharger": "9"
+        "socket:tesla_supercharger": "9",
+        "socket:type1_combo:output": "25 kW"
       },
       "geometry": {
         "type": "Polygon",
@@ -577,8 +577,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4356704673",
-        "addr:housenumber": "5/650",
+        "addr:housenumber": "650",
         "addr:street": "Church Street",
+        "addr:unit": "5",
         "amenity": "charging_station",
         "brand": "Tesla Supercharger",
         "brand:wikidata": "Q17089620",
@@ -4385,9 +4386,9 @@
         "operator:wikidata": "Q105775824",
         "payment:credit_cards": "yes",
         "socket:chademo": "2",
-        "socket:chademo:power": "50 kW",
+        "socket:chademo:output": "50",
         "socket:type2_combo": "2",
-        "socket:type2_combo:power": "350 kW"
+        "socket:type2_combo:output": "350"
       },
       "geometry": {
         "type": "Point",
@@ -9530,6 +9531,7 @@
         "brand:wikipedia": "en:Tesla, Inc.",
         "capacity": "2",
         "description": "Tesla Destination Charger",
+        "name": "Tesla Destination Charger",
         "short_name": "Tesla"
       },
       "geometry": {
@@ -9550,6 +9552,7 @@
         "brand:wikidata": "Q478214",
         "brand:wikipedia": "en:Tesla, Inc.",
         "description": "Tesla Destination Charger",
+        "name": "Tesla Destination Charger",
         "short_name": "Tesla"
       },
       "geometry": {
@@ -10940,6 +10943,8 @@
       "properties": {
         "@id": "node/10100811799",
         "amenity": "charging_station",
+        "brand": "BP Pulse",
+        "brand:wikidata": "Q39057719",
         "description": "BP Pulse",
         "operator": "BP Pulse",
         "operator:wikidata": "Q39057719",
@@ -14022,6 +14027,8 @@
         "opening_hours": "24/7",
         "parking:fee": "no",
         "scooter": "no",
+        "socket:chademo": "1",
+        "socket:type2_combo": "1",
         "website": "https://evie.com.au/"
       },
       "geometry": {
@@ -14708,7 +14715,9 @@
       "properties": {
         "@id": "node/11119093383",
         "amenity": "charging_station",
-        "name": "Chargefox"
+        "name": "Chargefox",
+        "operator": "Chargefox",
+        "operator:wikidata": "Q105775824"
       },
       "geometry": {
         "type": "Point",
@@ -14998,7 +15007,8 @@
         "name": "Tesla Supercharger",
         "operator": "Tesla, Inc.",
         "operator:wikidata": "Q478214",
-        "short_name": "Tesla"
+        "short_name": "Tesla",
+        "socket:type2_combo": "6"
       },
       "geometry": {
         "type": "Point",
@@ -17481,6 +17491,7 @@
       "properties": {
         "@id": "node/11738297527",
         "amenity": "charging_station",
+        "capacity": "1",
         "operator": "Chargefox",
         "operator:wikidata": "Q105775824"
       },
@@ -17875,6 +17886,40 @@
         ]
       },
       "id": "node/11853840472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11885672552",
+        "amenity": "charging_station",
+        "capacity": "4",
+        "description": "Wycheproof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2253748,
+          -36.0751569
+        ]
+      },
+      "id": "node/11885672552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11897759707",
+        "amenity": "charging_station",
+        "capacity": "2",
+        "operator": "Elanga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8521122,
+          -26.7577906
+        ]
+      },
+      "id": "node/11897759707"
     }
   ]
 }
