@@ -1,0 +1,473 @@
+,Unnamed: 0,Name,Latitude,Longitude
+0,0,Chargefox Charging Station,-35.72671957,145.6593541
+1,1,Secure Parking,-37.832108,144.969126
+2,2,Lonsdale St,-37.81343708,144.955934
+3,3,Sorrento Community Centre,-38.33856,144.737043
+4,4,CTR Whittlesea,-37.51059,145.118412
+5,5,Rye & Sorrento Camping,-38.320637,144.718201
+6,6,Red Rock (Coming Soon),-38.453893,145.199794
+7,7,Wanzl / Rectifier Technologies,-37.85402,145.104433
+8,8,Cowes Transit Centre,-38.451339,145.240243
+9,9,Melbourne Museum,-37.804609,144.972702
+10,10,Atura Hotel Dandenong,-38.002297,145.250432
+11,11,Club Trillium (gym/pool) carpark,-37.565285,144.893834
+12,12,West Oval,-38.129308,144.345207
+13,13,Hobsons Bay Civic Centre,-37.863399,144.831492
+14,14,Woodman Estate,-38.282256,145.125377
+15,15,Electric Vehicle Charging Station,-37.03208343,144.0582814
+16,16,Mornington Supercharger,-38.234305,145.051085
+17,17,Skyrail Rainforest Cableway,-16.8476624,145.6950452
+18,18,Hart's Farm,-38.4092,145.0067
+19,19,Armstrong Creek East Community Hub,-38.231922,144.368965
+20,20,Middy's Smart Centre (Behind Mulgrave Branch),-37.918327,145.148532
+21,21,Nepean Country Club And & Day Spa,-38.398895,144.870509
+22,22,Bourke St,-37.81477906,144.956447
+23,23,Energy Smart Water,-38.334999,144.98653
+24,24,South Melbourne,-37.82974328,144.960726
+25,25,Pacific Epping Shopping Centre,-37.653416,145.016892
+26,26,Jet City Hangar 131,-37.719978,144.892935
+27,27,Ampol Foodary Altona North,-37.84646146,144.8088603
+28,28,Glenroy Community Hub,-37.708497,144.924037
+29,29,Lygon Street Car park,-37.802158,144.96708
+30,30,Paradigm Hill Winery,-38.385929,145.071771
+31,31,Chargefox Charging Station,-36.72751175,145.5935891
+32,32,Dandenong Agricultural and Pastoral Society,-37.983731,145.196402
+33,33,Melbourne Airport - Qantas Valet Parking,-37.669133,144.851581
+34,34,Secure Parking (450 Flinders Lane),-37.818758,144.958866
+35,35,Lakeside Villas at Crittenden Estate,-38.335276,145.018981
+36,36,Ampol Dandenong Stud Road,-37.97134,145.223814
+37,37,Lorbek Luxury Cars,-37.833209,144.919764
+38,38,McDonald’s Melton South,-37.722801,144.572251
+39,39,Huberts Estate,-37.697017,145.415698
+40,40,Swinburne University - TC Building,-37.820819,145.039887
+41,41,Donato Cafe,-38.256559,145.037439
+42,42,Hyatt Centric Melbourne,-37.820407,144.955802
+43,43,Park Hyatt Melbourne,-37.811933,144.976125
+44,44,Westfield Airport West,-37.713651,144.885527
+45,45,Northern Motor Group - Pre Delivery Dept,-37.704572,145.072077
+46,46,Laverton Community Hub,-37.865302,144.76925
+47,47,BP Caroline Springs (Coming Soon),-37.75577,144.741077
+48,48,Wunggurrwil Dhurrung Centre,-37.876378,144.62706
+49,49,District Docklands Shopping - West Carpark,-37.812855,144.93695
+50,50,Darebin Civic Centre Precinct,-37.740102,145.005114
+51,51,CB Smith Reserve,-37.702614,144.969502
+52,52,Docklands,-37.81279364,144.9373902
+53,53,Hobsons Bay Civic Centre,-37.86361164,144.8310105
+54,54,Melbourne Richmond Supercharger,-37.831997,144.995807
+55,55,Wilson Parking,-37.811294,144.967823
+56,56,Evie Charging Station,-36.75541431,144.2870008
+57,57,Childers,-25.23560702,152.2788755
+58,58,Foreshore Camping,-38.359707,144.888748
+59,59,Kingston Village Square (DC Fast Charger),-38.246677,144.540122
+60,60,Springvale MEGA Centre,-37.94168,145.167746
+61,61,Greensborough Plaza,-37.702301,145.102344
+62,62,Miriam Vale,-24.32778446,151.5601492
+63,63,Tooronga Village,-37.845907,145.046669
+64,64,Collingwood Library,-37.804471,144.99327
+65,65,Bollygum Park,-37.529366,145.339116
+66,66,Woolworths Heidelberg,-37.758997,145.068632
+67,67,QESH - Port Douglas,-16.5271215,145.4631622
+68,68,Corsair Solutions,-37.76693229,145.0308257
+69,69,Wilson’s Carpark,-37.835734,144.973525
+70,70,Phillip Island Visitor Information Centre,-38.515001,145.348261
+71,71,Alto Hotel,-37.816254,144.954636
+72,72,Oakleigh South,-37.932688,145.097119
+73,73,Queen Victoria Market - Underground Carpark,-37.807804,144.958282
+74,74,Quest Mont Albert,-37.815833,145.10738
+75,75,Collins St,-37.81496609,144.9700935
+76,76,IKEA Richmond,-37.812895,145.010271
+77,77,Melbourne Richmond Supercharger,-37.83170783,144.9965223
+78,78,Nelson Place Parking/Charging,-37.863107,144.904614
+79,79,Dandenong Market - Southern Car Park (Coming Soon),-37.984494,145.216329
+80,80,Monash University Clayton - Car Park N1,-37.908137,145.131936
+81,81,Bru4U Geelong,-38.172122,144.367288
+82,82,Evie Charging Station,-35.94048354,144.7255162
+83,83,Brunswick EV Hub,-37.773851,144.961886
+84,84,Richmond Traders Coles,-37.817041,144.998664
+85,85,Queen St,-37.80782358,144.9581717
+86,86,Tesla Destination Charger,-37.33350334,144.1426209
+87,87,Tesla Destination Charger,-36.02622585,146.4590455
+88,88,David Street Car Park,-37.771404,144.962021
+89,89,Port Melbourne,-37.82377034,144.9265125
+90,90,Lonsdale St,-37.81005952,144.9696999
+91,91,Rosebud Beach,-38.355584,144.901769
+92,92,Holiday Inn Express Melbourne Little Collins,-37.817852,144.955291
+93,93,South Melbourne,-37.83103692,144.961768
+94,94,St Kilda,-37.86223596,144.9739984
+95,95,Flinders Hotel,-38.474449,145.019202
+96,96,Rex Gorell Nissan,-38.16275,144.350693
+97,97,Penguin Parade Visitor's Centre,-38.505496,145.148488
+98,98,300 Latrobe Street - Wilson Car Park,-37.810021,144.960653
+99,99,Bob Morell Reserve,-38.163586,144.352507
+100,100,Boundary Rd Parking Lot,-37.71912127,144.9615062
+101,101,Stony point caravan park,-38.374257,145.221478
+102,102,Camberwell Supercharger,-37.828606,145.05643
+103,103,Burwood Brickworks,-37.848953,145.133898
+104,104,Shell Taylors Lakes,-37.69657,144.78212
+105,105,Chelsea Swansea Road Car Park,-38.054795,145.115952
+106,106,Lonsdale St,-37.81137439,144.9633783
+107,107,Cooroy,-26.418047,152.911429
+108,108,Springvale Library,-37.957007,145.153146
+109,109,Lonsdale St,-37.8130787,144.9582143
+110,110,Chargefox Charging Station,-36.631158,142.2229192
+111,111,Hartley's Crocodile Adventures,-16.6597114,145.5663743
+112,112,Chelsea Swansea Road Car Park,-38.05485257,145.1166042
+113,113,Flinders Ln,-37.81861176,144.9586537
+114,114,AWM Greentech Geelong,-38.163929,144.411376
+115,115,Bayside City Council,-37.959394,145.017704
+116,116,North Drive Office Complex,-37.909599,145.062347
+117,117,Holiday Inn Express Melbourne Southbank,-37.821895,144.966652
+118,118,Carlton,-37.80216073,144.9671638
+119,119,Sundowner Rockbank Caravan Park,-37.730067,144.659873
+120,120,Club Delaray,-38.110037,145.336394
+121,121,Evie Charging Station,-36.37203068,143.6109526
+122,122,Watergardens Shopping Centre,-37.699043,144.775876
+123,123,Hume Villa Motor Inn,-37.696652,144.959707
+124,124,Tesla Destination Charger,-36.67605388,144.245049
+125,125,Rialto Car Park,-37.8191,144.957613
+126,126,Evie Charging Station,-37.0506023,143.7418516
+127,127,Harrow Street Car Park,-37.821964,145.124448
+128,128,Docklands,-37.81209916,144.9392454
+129,129,Common Ground Project,-38.259646,144.276227
+130,130,QESH Ayr,-19.5740619,147.4056813
+131,131,Moonee Ponds Supercharger,-37.76556152,144.9236774
+132,132,Park Rises Residences,-37.797009,144.926387
+133,133,Russell St,-37.81180407,144.9677026
+134,134,Waverley Nissan,-37.906157,145.159718
+135,135,hacyclon caravan park ,-38.317144,144.988947
+136,136,Russell St,-37.81129305,144.967822
+137,137,Tesla Destination Charger,-37.23502199,144.4229078
+138,138,Monash University Caulfield Car Park,-37.876073,145.043688
+139,139,Essendon Nissan,-37.720262,144.895849
+140,140,Hungry Jack’s Sunbury,-37.580985,144.724278
+141,141,CTR Whittlesea,-37.51043222,145.11856
+142,142,Forest Hill Chase Shopping Centre,-37.835382,145.163537
+143,143,Greenvale Woolworths,-37.616294,144.914873
+144,144,Melbourne Convention Exhibition Centre,-37.82613,144.953107
+145,145,AAkonsult,-37.818982,144.896722
+146,146,Hyatt Place Caribbean Park (Coming Soon),-37.915767,145.216905
+147,147,Camberwell Supercharger,-37.82867623,145.0564007
+148,148,Evie Charging Station,-37.3558872,144.5282275
+149,149,Stockland Point Cook,-37.884254,144.736465
+150,150,Grow Energy,-37.955662,145.038605
+151,151,Quest Burwood East,-37.853643,145.162436
+152,152,Tesla Destination Charger,-36.74595006,145.5590773
+153,153,Springvale Homemaker Centre,-37.927929,145.143552
+154,154,Mercure Townsville,-19.2714721,146.7858734
+155,155,Lorbek Luxury Cars,-37.832093,144.919335
+156,156,Chadstone Shopping Centre Carpark A,-37.886337,145.07958
+157,157,Hamilton,-27.44449167,153.0836111
+158,158,Evie Charging Station,-37.17227961,144.4757619
+159,159,Paint Spot Niddrie,-37.735219,144.887807
+160,160,Edward St Parking Lot,-37.77360197,144.9618831
+161,161,Stokehouse St Kilda,-37.86758,144.974352
+162,162,Paronella Park,-17.6524637,145.9570688
+163,163,Evie Charging Station,-36.53193077,143.8615516
+164,164,Midlander Motor Inn,-23.5236365,148.1593512
+165,165,The Fashion Capital - Tesla,-37.884862,145.082357
+166,166,Westfield Doncaster,-37.78342,145.126058
+167,167,Chargefox Charging Station,-37.46933398,143.8550343
+168,168,Latrobe Street,-37.81241851,144.95362
+169,169,Baptcare Strathalan,-37.728819,145.077998
+170,170,Eltham Leisure Centre,-37.722925,145.142426
+171,171,The Fashion Capital - Parking Block F,-37.887286,145.0824
+172,172,South Melbourne,-37.83189437,144.9690271
+173,173,South Melbourne Market Rooftop Parking,-37.83203,144.956791
+174,174,Port Melbourne,-37.83163355,144.9194251
+175,175,Stud Park Shopping Centre,-37.9214,145.237553
+176,176,Monash University Clayton - Car Park N1,-37.90797166,145.1312195
+177,177,Holmesglen Private Hospital,-37.93704,145.050288
+178,178,McDonald’s Melton South,-37.72198498,144.5729271
+179,179,BMW South Yarra,-37.849295,145.00279
+180,180,Springfield,-27.68194444,152.8997222
+181,181,Crown Metropol Melbourne,-37.825511,144.957692
+182,182,EVolution HQ,-37.94260024,145.1197763
+183,183,Mornington Supercharger,-38.23425677,145.0514638
+184,184,Rockhampton,-23.38227211,150.5134619
+185,185,Dan Murphy’s Armstrong Creek,-38.225361,144.337345
+186,186,Flinders General Store rear car park,-38.473287,145.016892
+187,187,Belgrave Heights Convention Centre,-37.923605,145.348486
+188,188,Morris Moor (Coming Soon),-37.941172,145.061402
+189,189,Good Guys,-38.148237,145.138689
+190,190,Wilson Parking Eureka,-37.821726,144.965184
+191,191,Cobblebank Stadium,-37.716016,144.599558
+192,192,Myuna Farm,-37.985484,145.232704
+193,193,EVolution HQ,-37.942988,145.11844
+194,194,Eldridge Estate Winery,-38.372182,145.018678
+195,195,Queens Road,-37.83477276,144.9737461
+196,196,QESH - Cardwell,-18.2625592,146.0249012
+197,197,Pullman Melbourne Albert Park,-37.849977,144.97831
+198,198,Kinglake Library (rear of the Police Station),-37.531509,145.339577
+199,199,Pullman Reef Hotel Casino,-16.923837,145.7796679
+200,200,Southbank,-37.82123242,144.9673592
+201,201,QESH - Innisfail,-17.5209629,146.0261103
+202,202,Flinders St,-37.81621089,144.9709391
+203,203,Diamond Valley Sports and Fitness Centre,-37.689194,145.110764
+204,204,West Melbourne,-37.81010363,144.9510094
+205,205,Wilson Parking,-37.814781,144.956451
+206,206,De Bortoli Wines Dixons Creek,-37.596809,145.412205
+207,207,Waverley Gardens Shopping Centre,-37.935556,145.189902
+208,208,Southbank,-37.82076345,144.9663122
+209,209,Port Melbourne,-37.83316274,144.9197754
+210,210,Sorrento Community Centre,-38.33811816,144.7372775
+211,211,Yarra Valley Nissan,-37.754859,145.363238
+212,212,Cairns,-16.92045651,145.7788731
+213,213,Mantra Epping,-37.649756,145.008102
+214,214,Secure Parking - 460 Lonsdale Street Car Park,-37.813049,144.958347
+215,215,Port Melbourne,-37.8297164,144.9311229
+216,216,CB Smith Reserve,-37.70191464,144.9681533
+217,217,Uni Hill Town Centre,-37.68247053,145.0710002
+218,218,Tarneit Park Hub (BYO Type 2),-37.833989,144.69899
+219,219,Secure Parking (Southern Cross),-37.812452,144.969535
+220,220,RACV Head Office (Service Centre Car Park),-37.952893,145.180067
+221,221,Mossman Gorge Centre,-16.4742541,145.3483542
+222,222,Docklands,-37.81254895,144.939394
+223,223,Prahran Square,-37.847695,144.99266
+224,224,Schnapper Point Dr Parking/Charging,-38.215455,145.035453
+225,225,Botanic Ridge Village,-38.150115,145.290458
+226,226,Yarraville,-37.81899541,144.8964976
+227,227,Downie St,-37.82020302,144.9555652
+228,228,Solargain Hastings,-38.314125,145.184157
+229,229,Priority One Trade Services,-38.231677,145.056367
+230,230,"Footscray town hall, Maribyrnong city council",-37.804868,144.900362
+231,231,Geelong Supercharger,-38.065192,144.382451
+232,232,Marlborough,-22.82764427,149.9327796
+233,233,Bayside City Council,-37.95950238,145.0169255
+234,234,Brooklands of Mornington,-38.221655,145.045807
+235,235,Club Armstrong,-38.225341,144.328361
+236,236,Altona Gate Shopping Centre,-37.827587,144.848241
+237,237,Clifftop Accommodation Phillip Island,-38.504564,145.259653
+238,238,Kinglake Reserve (beside public toilets),-37.53009,145.340696
+239,239,Griffith,-17.9347544,145.9253729
+240,240,Pullman Melbourne on the Park,-37.815994,144.983228
+241,241,Queens Road,-37.84977063,144.9784513
+242,242,Porsche Centre Brighton,-37.92549673,145.0278825
+243,243,(No Longer In Use) DHL Melbourne Gateway,-37.684086,144.863519
+244,244,WaterMarc Car Park,-37.704042,145.10525
+245,245,Southbank,-37.81609341,144.9584272
+246,246,Eastland Shopping Centre,-37.81425,145.229003
+247,247,Tully,-17.93486278,145.9244323
+248,248,Coburg Town Hall / Moreland City,-37.74058156,144.9694655
+249,249,BP Northpoint,-37.648097,144.994195
+250,250,Ampol Foodary Altona North (Coming Soon),-37.84667,144.809201
+251,251,Frosty Mango,-18.949778,146.2768679
+252,252,Bayside Entertainment Centre,-38.140408,145.125184
+253,253,RACV Torquay Resort,-38.34035,144.310815
+254,254,Ramada Resort by Wyndham Phillip Island,-38.471698,145.242237
+255,255,Evie Charging Station,-36.90919906,144.2670216
+256,256,QESH The Pier Cairns,-16.9198193,145.7805076
+257,257,Parliament PI,-37.8110789,144.9764385
+258,258,Ivanhoe Gardens (Coming Soon),-37.754954,145.054043
+259,259,Cairns Central,-16.9245893,145.7716095
+260,260,Carmila,-21.90865281,149.4090921
+261,261,Collingwood Library,-37.80425886,144.9932374
+262,262,Ivanhoe Library,-37.766356,145.044964
+263,263,Red Rooster Vermont,-37.83192,145.213897
+264,264,Gatton,-27.55140366,152.3350726
+265,265,Middy’s Port Melbourne,-37.828073,144.925718
+266,266,Shell Taylors Lakes,-37.69671193,144.7823411
+267,267,Silverwater Resorts Phillip Island,-38.522528,145.392082
+268,268,Tesla Destination Charger,-36.6716481,144.3054738
+269,269,Woolworths Fishermans Bend,-37.830671,144.931658
+270,270,Uni Hill Town Centre,-37.683069,145.071032
+271,271,Armstrong Creek Town Centre,-38.22808,144.339931
+272,272,Stockland Point Cook - Below Woolworths,-37.884233,144.734115
+273,273,The Glen,-37.875269,145.16523
+274,274,St Kilda,-37.86765039,144.9742931
+275,275,Queenscliff Brewhouse,-38.265713,144.663211
+276,276,Southbank,-37.82082443,144.9649806
+277,277,Coburg Town Hall / Moreland City,-37.74111,144.970149
+278,278,Westfield Southland - Icon Car Wash,-37.959294,145.056598
+279,279,South Melbourne,-37.83248694,144.9564174
+280,280,Amberlee Holiday Homes & Accommodation,-38.380923,144.912544
+281,281,Wanzl / Rectifier Technologies,-37.85392974,145.1043512
+282,282,Cobblebank Stadium,-37.71596946,144.5972922
+283,283,Bowen,-20.01660114,148.2480204
+284,284,ACDC Garage,-37.816185,144.97077
+285,285,Middy's Lilydale,-37.761942,145.346082
+286,286,Bourke St,-37.81638627,144.9547755
+287,287,dingley reserve ,-37.984056,145.137319
+288,288,Vaclift,-37.709632,144.871383
+289,289,Townsville,-19.32382549,146.7587996
+290,290,Melbourne Central Carpark,-37.811734,144.963518
+291,291,Flagstaff City Inn,-37.810116,144.951048
+292,292,Pullman Melbourne,-37.81581134,144.9832392
+293,293,Historic Village Herberton,-17.3723917,145.385589
+294,294,Berwick Nissan,-38.040047,145.343384
+295,295,Lonsdale St,-37.81067877,144.9666047
+296,296,Corsair Solutions,-37.767107,145.03066
+297,297,Highpoint Shopping Centre - Basement Carpark,-37.772002,144.887869
+298,298,Secure Parking (300 Flinders St),-37.818268,144.96402
+299,299,Sandown Raceway Carpark,-37.950836,145.162663
+300,300,Cranbourne West Community Hub (Coming Soon),-38.106929,145.250522
+301,301,Middy’s Port Melbourne,-37.82788423,144.9262572
+302,302,Maryborough,-25.53982619,152.6991534
+303,303,Monash University Clayton - Car Park S2,-37.914282,145.1338
+304,304,Leisurelink Aquatic & Recreation Centre (Coming Soon),-38.197536,144.321073
+305,305,Port Melbourne,-37.82992222,144.9171103
+306,306,Collins St,-37.81780946,144.9552413
+307,307,Bourke St,-37.81211268,144.9709222
+308,308,Cranbourne Home (Out Of Service),-38.087041,145.279599
+309,309,Barwon Valley Lodge,-38.166789,144.341445
+310,310,The Prince Hotel,-37.862284,144.973965
+311,311,Leopold Library,-38.186249,144.46436
+312,312,Glen Eira City Council,-37.880835,145.022852
+313,313,Oak Park Sports & Aquatic Centre,-37.723715,144.920974
+314,314,Dromana Drive-in,-38.329727,144.996685
+315,315,Bunnings Sunshine,-37.776275,144.83008
+316,316,Ventia Head Office Carpark,-37.950648,145.080488
+317,317,Queens & Collins,-37.81594,144.961493
+318,318,Coles Express with co-located Hungry Jacks,-37.829682,144.917185
+319,319,Clayton M City,-37.922053,145.140054
+320,320,Lonsdale St,-37.81017999,144.9705189
+321,321,Hebco Industrial,-37.833743,145.18642
+322,322,Evie Charging Station,-37.00576777,144.2175831
+323,323,Mackay,-21.13971112,149.1852379
+324,324,Coburg North EV Fast Charge (Currently Out of Order),-37.718952,144.961498
+325,325,Tooradin Airfield / Wings & Fins Seafood Restaurant,-38.214809,145.422459
+326,326,Whittlesea Motel,-37.511926,145.119479
+327,327,Ampol Dandenong Stud Road,-37.97092578,145.2235052
+328,328,RACV Cape Schanck Resort,-38.461847,144.893721
+329,329,South Wharf,-37.82586889,144.9552364
+330,330,Westfield Southland,-37.958461,145.053615
+331,331,Moonah Links,-38.406624,144.853314
+332,332,Grand Hyatt Melbourne,-37.814844,144.969685
+333,333,Peninsula Home Shopping Centre,-38.220693,145.061207
+334,334,Pullman Palm Cove Sea Temple Resort and Spa,-16.7527799,145.6706987
+335,335,Evie Charging Station,-36.88827856,145.2474255
+336,336,Federation Square Car Park,-37.817739,144.971282
+337,337,Flagstaff Car Park,-37.813111,144.955756
+338,338,Toowoomba,-27.5202159,151.8501711
+339,339,Chargefox Charging Station,-36.76208496,144.282801
+340,340,Cunningham Pier,-38.143296,144.361213
+341,341,Pentridge Shopping Centre,-37.736669,144.969336
+342,342,Evie Charging Station,-36.3698477,145.361899
+343,343,Knox Civic Centre,-37.871723,145.245056
+344,344,Tesla Destination Charger,-37.28599785,144.1736378
+345,345,Bitternfields Shopping Centre,-38.336376,145.177183
+346,346,BIG4 Phillip Island Caravan Park,-38.516829,145.35646
+347,347,Victoria Gardens Shopping Centre,-37.812603,145.011729
+348,348,Coles Lilydale,-37.756189,145.354065
+349,349,Ten Minutes by Tractor,-38.394641,144.994231
+350,350,BM Autowerks,-37.90326,145.095351
+351,351,Flinders Ln,-37.81890714,144.9577073
+352,352,Hungry Fox Café,-37.719767,144.89451
+353,353,The Arts Centre,-37.822715,144.96767
+354,354,Clubs Assist,-38.022421,145.213927
+355,355,Collingwood Library,-37.82022948,145.0402257
+356,356,Porsche Centre Brighton,-37.925691,145.027893
+357,357,Coolangatta,-28.16419699,153.5152736
+358,358,King Henry Arts Cafe,-37.868948,145.351181
+359,359,Kelly Racing,-38.010174,145.110226
+360,360,Westfield Airport West,-37.71395622,144.8860831
+361,361,Lockelec Rolling Stock,-37.995328,145.109648
+362,362,Marlborough South,-22.8276466,149.9327812
+363,363,Pacific Werribee Shopping Centre,-37.875247,144.679638
+364,364,Cairns Beach Volleyball Court,-16.9036743,145.7617551
+365,365,Bourke St,-37.81581182,144.9595123
+366,366,Just Honk Used Cars,-37.843884,144.782596
+367,367,Croydon Train Station Multi Level Car Park,-37.796959,145.280091
+368,368,Church St,-37.83218295,144.996426
+369,369,The Pines Shopping Centre,-37.762252,145.16823
+370,370,Electric Vehicle Charging Station,-36.38578464,145.3969653
+371,371,Monash University Caulfield Car Park,-37.87579762,145.0436391
+372,372,Element Melbourne Richmond,-37.826921,145.020707
+373,373,Hotel 115 Guest Carpark,-37.807448,145.039021
+374,374,Coles South Melbourne,-37.832375,144.960369
+375,375,Coles - Cobblebank Village,-37.713815,144.601847
+376,376,Community Bank Stadium,-37.673703,145.166098
+377,377,Cellarbrations,-37.809802,144.948932
+378,378,Kensington,-37.79687512,144.926417
+379,379,Manor Lakes Central Shopping Centre,-37.875049,144.612648
+380,380,Berwick BMW,-38.026209,145.311511
+381,381,Flinders St,-37.8180318,144.9640101
+382,382,Malvern Central (Coming Soon),-37.862909,145.027303
+383,383,Centennial Park Charters Towers QESH,-20.0658342,146.2617747
+384,384,Moonee Ponds Supercharger,-37.765834,144.923586
+385,385,BIG4 Mornington Peninsula Holiday Park,-38.174557,145.141541
+386,386,Brimbank Shopping Centre,-37.751827,144.775257
+387,387,QV Melbourne - Car Park,-37.810679,144.966601
+388,388,Carlton,-37.80320151,144.9717566
+389,389,RACV Solar,-38.197552,144.344603
+390,390,Sorrento Hotel,-38.338316,144.743447
+391,391,Evie Charging Station,-37.72642210000001,145.6593541
+392,392,AmpCharge Charging Station,-37.69394399999999,144.969126
+393,393,Evie Charging Station,-37.676813,144.955934
+394,394,AmpCharge Charging Station,-37.80445,144.737043
+395,395,Evie Charging Station,-37.7366996,145.118412
+396,396,Evie Charging Station,-37.72642210000001,144.718201
+397,397,Evie Charging Station,-37.676813,145.199794
+398,398,AmpCharge Charging Station,-37.80445,145.104433
+399,399,Tesla Supercharger,-37.838201,145.240243
+400,400,Evie Charging Station,-37.77948889999999,144.972702
+401,401,Evie Charging Station,-37.7366996,145.250432
+402,402,Exploren Charging Station,-37.8251201,144.893834
+403,403,Exploren Charging Station,-37.8143964,144.345207
+404,404,Evie Charging Station,-37.7726351,144.831492
+405,405,JET Charge,-37.8290241,145.125377
+406,406,Exploren Charging Station,-37.8357708,144.0582814
+407,407,Chargefox Charging Station,-37.8062739,145.051085
+408,408,Evie Charging Station,-37.86317680000001,145.6950452
+409,409,Tesla Supercharger,-37.8453543,145.0067
+410,410,AmpCharge Charging Station,-37.8266164,144.368965
+411,411,Tesla Supercharger,-37.80941,145.148532
+412,412,Tesla Supercharger,-37.907137,144.870509
+413,413,Evie Charging Station,-37.9103076,144.956447
+414,414,bp pulse Charging Station,-37.9004443,144.98653
+415,415,AmpCharge Charging Station,-37.9009451,144.960726
+416,416,Tesla Supercharger,-37.8378239,145.016892
+417,417,Evie Charging Station,-38.0084554,144.892935
+418,418,Evie Charging Station,-38.0512342,144.8088603
+419,419,Evie Charging Station,-38.0884277,144.924037
+420,420,Evie Charging Station,-38.3083827,144.96708
+421,421,AmpCharge Charging Station,-37.9078381,145.071771
+422,422,Chargefox Charging Station,-38.15320099999999,145.5935891
+423,423,Chargefox Charging Station,-38.1398921,145.196402
+424,424,Evie Charging Station,-38.2242025,144.851581
+425,425,Tesla Supercharger,-37.9862669,144.958866
+426,426,Chargefox Charging Station,-38.093351,145.018981
+427,427,Exploren Charging Station,-37.8823202,145.223814
+428,428,Exploren Charging Station,-37.8784044,144.919764
+429,429,Tesla Destination Charger,-37.8145678,144.572251
+430,430,Exploren Charging Station,-37.8748575,145.415698
+431,431,Chargefox Charging Station,-37.8753501,145.039887
+432,432,Evie Charging Station,-37.9063558,145.037439
+433,433,EVUp Charging Station,-37.9212609,144.955802
+434,434,EVUp Charging Station,-37.76973369999999,144.976125
+435,435,EVUp Charging Station,-37.7713464,144.885527
+436,436,Exploren Charging Station,-37.74978180000001,145.072077
+437,437,EV LINK Charging Station,-37.75539489999999,144.76925
+438,438,Chargefox Charging Station,-37.7190472,144.741077
+439,439,Exploren Charging Station,-37.7215466,144.62706
+440,440,Chargefox Charging Station,-37.6869621,144.93695
+441,441,Exploren Charging Station,-37.8304364,145.005114
+442,442,Chargefox Charging Station,-37.8965086,144.969502
+443,443,Chargefox Charging Station,-37.901957,144.9373902
+444,444,Chargefox Charging Station,-37.8768959,144.8310105
+445,445,Chargefox Charging Station,-37.8747948,144.995807
+446,446,Chargefox Charging Station,-38.14316469999999,144.967823
+447,447,EVUp Charging Station,-38.1670491,144.2870008
+448,448,Chargefox Charging Station,-38.19669710000001,152.2788755
+449,449,Chargefox Charging Station,-38.19747739999999,144.888748
+450,450,Chargefox Charging Station,-38.1976812,144.540122
+451,451,Evie Charging Station,-38.04805899999999,145.167746
+452,452,Chargefox Charging Station,-38.3070309,145.102344
+453,453,Evie Charging Station,-38.3312371,151.5601492
+454,454,EVUp Charging Station,-38.2777861,145.046669
+455,455,EVUp Charging Station,-38.2569059,144.99327
+456,456,Chargefox Charging Station,-38.18944,145.339116
+457,457,Chargefox Charging Station,-37.8443581,145.068632
+458,458,Chargefox Charging Station,-37.8191017,145.4631622
+459,459,Tesla Destination Charger,-37.6532174,145.0308257
+460,460,Electric Vehicle Charging Station,-37.6377179,144.973525
+461,461,AmpCharge Charging Station,-37.6595682,145.348261
+462,462,Chargefox Charging Station,-37.6815643,144.954636
+463,463,Chargefox Charging Station,-37.5729311,145.097119
+464,464,bp pulse Charging Station,-37.5344243,144.958282
+465,465,EVUp Charging Station,-37.8162143,145.10738
+466,466,Chargefox Charging Station,-37.77268349999999,144.9700935
+467,467,EVUp Charging Station,-37.7774995,145.010271
+468,468,EVERTY Charging Station,-37.7722232,144.9965223
+469,469,Exploren Charging Station,-37.8046035,144.904614
+470,470,Tesla Supercharger,-38.063753635583815,144.3849220059399
+471,471,Tesla Supercharger,-37.881077732052795,144.72239488849075
