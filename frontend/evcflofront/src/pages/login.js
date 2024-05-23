@@ -24,12 +24,12 @@ const Login = () => {
   };
 
   return (
-    <Container component="main" maxWidth="xs">
+    <Container component="main" maxWidth="xs" style={{ backgroundColor: '#f5f5f5' }}>
       <Box mt={4}>
-        <Title title="EVCFLO" subTitle="Login" />
+        <Title title="Chameleon EVCFLO" subTitle="Login" />
       </Box>
-      <Paper elevation={3} style={{ padding: '20px', marginTop: '20px' }}>
-        <Typography component="h1" variant="h5">
+      <Paper elevation={3} style={{ padding: '20px', marginTop: '20px', backgroundColor: '#ffffff' }}>
+        <Typography component="h1" variant="h5" style={{ color: '#3f51b5' }}>
           Login
         </Typography>
         <form onSubmit={handleLogin} noValidate>
@@ -43,6 +43,7 @@ const Login = () => {
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            style={{ backgroundColor: '#ffffff' }}
           />
           <TextField
             variant="outlined"
@@ -55,6 +56,7 @@ const Login = () => {
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            style={{ backgroundColor: '#ffffff' }}
           />
           <Button
             type="submit"
@@ -63,7 +65,8 @@ const Login = () => {
             color="primary"
             style={{
               marginTop: '10px',
-              backgroundColor: 'var(--heading-clr)',
+              backgroundColor: '#3f51b5',
+              color: '#ffffff',
             }}
           >
             Login
