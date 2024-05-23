@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import SubTitle from './SubTitle';
+import Title from '../components/Title';
+
 
 const Support = () => {
 
@@ -25,21 +26,36 @@ const Support = () => {
   const goToSustainabilityPage = () => {
     navigate('/sustainability');  // Navigate to the View page
   }
+  
+  const goToContactUsPage = () => {
+    navigate('/ContactUs');  // Navigate to the View page
+  }
 
   return (
     <>
       <section className="section" id="Support">
-        <SubTitle title="Support" />
+        <Title title="Support" />
+        <div class="left-side">
+        <Title subTitle="Hey There!" />
+        <Title subTitle="How can we Help You?" />
+        </div>
 
+        <div class="right-side">
+          <p>🙂</p>
+        </div>
+        
         <div className="diamond-buttons">
-          <input type="submit" value="FAQ" className="btn-diamond form-submit" onClick={goToFAQPage} />
           <div className="side-buttons">
             <input type="submit" value="Brochure" className="btn-diamond form-submit" onClick={goToBrochurePage} />
+            <input type="submit" value="Home" className="btn-diamond form-submit" onClick={goToHomePage} />
             <input type="submit" value="GetQuotes" className="btn-diamond form-submit" onClick={goToGetQuotesPage} />
           </div>
-          <input type="submit" value="Home" className="btn-diamond form-submit" onClick={goToHomePage} />
-          <input type="submit" value="Sustainability" className="btn-diamond form-submit" onClick={goToSustainabilityPage} />
-        </div>
+          <div className="down-buttons">
+            <input type="submit" value="FAQ" className="btn-diamond form-submit" onClick={goToFAQPage} />
+            <input type="submit" value="Sustainability" className="btn-diamond form-submit" onClick={goToSustainabilityPage} />
+            <input type="submit" value="Contact Us" className="btn-diamond form-submit" onClick={goToContactUsPage} />
+          </div>
+          </div>
 
       </section>
       {/* <div id='sp'></div> */}

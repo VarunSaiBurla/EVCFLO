@@ -26,6 +26,7 @@ import GetQuotes from './components/GetQuotes';
 import Sustainability from './pages/sustainability';
 import Support from './components/Support';
 import Ourteam from './pages/ourteam';
+import ContactUs from "./components/contactus";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Route path="/brochure" element={<Brochure />} />
             <Route path="/getquotes" element={<GetQuotes />} />
             <Route path="/sustainability" element={<Sustainability />} />
+            <Route path="/contactus" element={<ContactUs />} />
             <Route
               exact
               path="/densityclusteringmap"
