@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightyellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: darkgreen;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation Styles */
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* User Profile Section Styles */
+.user-profile,
+.charging-history {
+  flex: 1;
+  background-color: lightyellow;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Charging Graph Section Styles */
+.charging-graph {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charging-graph img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Charging History Section Styles */
+.charging-info {
+  line-height: 1.5;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: darkgreen;
+  color: white;
+}
