@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { loginUser } from '../firebase';
-import { Button, TextField, Typography, Container, Paper, Box, Snackbar, Alert } from '@mui/material';
+import { Button, TextField, Typography, Container, Paper, Box, Snackbar, Alert, Avatar } from '@mui/material';
 import Title from '../components/Title';
 import { useNavigate } from 'react-router-dom';
 
@@ -23,52 +23,101 @@ const Login = () => {
       });
   };
 
+  const handleGoogleLogin = () => {
+    // Add your Google login implementation here
+  };
+
+  const handleFacebookLogin = () => {
+    // Add your Facebook login implementation here
+  };
+
+  const handleMicrosoftLogin = () => {
+    // Add your Microsoft login implementation here
+  };
+
   return (
     <Container component="main" maxWidth="xs">
-      <Box mt={4}>
+      <Box
+        sx={{
+          marginTop: 8,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+        }}
+      >
         <Title title="EVCFLO" subTitle="Login" />
-      </Box>
-      <Paper elevation={3} style={{ padding: '20px', marginTop: '20px' }}>
-        <Typography component="h1" variant="h5">
-          Login
-        </Typography>
-        <form onSubmit={handleLogin} noValidate>
-          <TextField
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            id="email"
-            label="Email Address"
-            name="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <TextField
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            name="password"
-            label="Password"
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            color="primary"
-            style={{
-              marginTop: '10px',
-              backgroundColor: 'var(--heading-clr)',
-            }}
-          >
+        <Paper elevation={3} sx={{ p: 4, mt: 2 }}>
+          <Typography component="h1" variant="h5">
             Login
-          </Button>
-
+          </Typography>
+          <form onSubmit={handleLogin} noValidate sx={{ mt: 1 }}>
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              id="email"
+              label="Email Address"
+              name="email"
+              autoComplete="email"
+              autoFocus
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              name="password"
+              label="Password"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <Typography variant="body2" sx={{ mt: 2, mb: 2 }}>
+              Forgot Password?
+            </Typography>
+            <Typography variant="body2" sx={{ mt: 2, mb: 2 }}>
+              Do not have account? SignUp?
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 3, mb: 2 }}
+            >
+              Login
+            </Button>
+            <Typography variant="body2" sx={{ mt: 2 }}>
+              or login with
+            </Typography>
+            <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
+              <Button
+                onClick={handleGoogleLogin}
+                variant="outlined"
+                startIcon={<Avatar src="https://www.google.com/favicon.ico" />}
+                sx={{ mr: 2 }}
+              >
+                Google
+              </Button>
+              <Button
+                onClick={handleFacebookLogin}
+                variant="outlined"
+                startIcon={<Avatar src="https://www.facebook.com/favicon.ico" />}
+              >
+                Facebook
+              </Button>
+              <Button
+                onClick={handleMicrosoftLogin}
+                variant="outlined"
+                startIcon={<Avatar src="https://login.microsoftonline.com/favicon.ico" />}
+                sx={{ ml: 2 }}
+              >
+                Microsoft
+              </Button>
+            </Box>
+          </form>
           <Box position="absolute" top="100%" mt={2} width="100%">
             {error && (
               <Snackbar
@@ -93,8 +142,8 @@ const Login = () => {
               </Snackbar>
             )}
           </Box>
-        </form>
-      </Paper>
+        </Paper>
+      </Box>
     </Container>
   );
 };
