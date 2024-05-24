@@ -2,7 +2,7 @@
 This repository is designed to store various research conducted on EV charging stations globally with different datasets, analysis done on python & server used. It contains the frontend codes and upskilling information as well as the notebooks.
 
 # Important links
-Most Recent Handover Document: https://deakin365.sharepoint.com/sites/Chameleon2/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FChameleon2%2FShared%20Documents%2FEV%20Adoption%20Tools%2FProject%20Documentation%2F2022%20%2D%20T2%20EVCFLO%20Web%20Dev%20Handover%20%2Epdf&parent=%2Fsites%2FChameleon2%2FShared%20Documents%2FEV%20Adoption%20Tools%2FProject%20Documentation&p=true&ga=1
+Most Recent Handover Document: https://github.com/Chameleon-company/LeadershipTeam/blob/7411e403817c4b2c5288a0ae162abdc98cdf6429/Assessment%20Tasks/2023-T2/11.2P%20Company%20Handover.md
 
 Trello board:  
 https://trello.com/b/v3XH0ISE/evcflo-project
@@ -95,13 +95,21 @@ Returns: 201 is successful, 400 if failed. Note: This simply adds 5 demo charger
 # Contact
 T1.23 Company director: Chathu Ranaweera chathu.ranaweera@deakin.edu.au
 
-T1.23 Project Lead: Barry Chen 
-chenchaoyi@deakin.edu.au
+T1.24 Project Lead: Akshit Signh
+s221071548@deakin.edu.au
   
-T1.23 Data Science Team Lead: Ishika Khanna
-khannai@deakin.edu.au
+T1.24 Data Science Team Lead: JAMES DAVIES
+daviesja@deakin.edu.au
 
-T1.23 Web Dev Team Lead: Yesini Liyanage
-s222063923@deakin.edu.au
+T1.24 Web Dev Team Lead:
+    Front-end: Akshit Signh
+    s221071548@deakin.edu.au
+    Back-end: Ratanak Sovann
+    rsovann@deakin.edu.au
+
+T1.24 Evoleon Team Lead: Kaelen Mackinnon
+s222277913@deakin.edu.au
+
+
 
 

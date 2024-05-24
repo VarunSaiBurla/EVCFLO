@@ -1,15 +1,37 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import SubTitle from './SubTitle';
+import { useNavigate } from 'react-router-dom';
 
+const Brochure = () => 
+{
+    const navigate = useNavigate();  // Get the useNavigate hook
 
-const Brochure = () => {
+    const goToSupportPage = () => {
+        navigate('/support');  // Navigate to the Support page
+    } 
+
+    const appStyle = {
+        //display: 'flex',
+        //flexDirection: 'column',
+        //alignItems: 'center',
+        margin: '0 auto',
+        maxWidth: 'auto',
+        padding: '0 2rem',
+      };
+    
+      const textStyle = {
+        lineHeight: '1.5em',
+        fontSize: '1.125rem',
+        margin: '1em 0',
+        textAlign: 'right', // Change to "right" alignment
+      };
 
     return (
         <section className="section" id="Brochure">
             <SubTitle title="Brochure" />
             <center>
             <div className="brochure">
+            <div className="app" style={appStyle} id='FAQ'></div>
                 <div className="product-details">
                     <h2>Product Details</h2>
                     <ul>
@@ -23,6 +45,8 @@ const Brochure = () => {
                         <li>App operation/RFID authentication/Plug & play.</li>
                         <li>Wall mount/floor stand installation.</li>
                     </ul>
+                    <div className="screenRight" style={textStyle}></div>
+                    <input type="submit" value="Back" className="form-submit" onClick={goToSupportPage} />
                 </div>
             </div>
             </center>
